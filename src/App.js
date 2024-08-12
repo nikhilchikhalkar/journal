@@ -1,23 +1,42 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import FlagSection from './Components/FlagSection';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
+import WhyChoose from './Components/WhyChoose';
+import Cfp from './Components/Cfp';
+import Home from './Pages/Home';
+import Banner from './Components/Banner';
+import ReviewProcess from './Pages/ReviewProcess';
+import ManuscriptPreparation from './Pages/ManuscriptGuideline';
+import FAQs from './Pages/FAQs';
+import HowToSubmit from './Pages/HowToSubmit';
+import ManuscriptPublication from './Pages/ManuscriptPublication';
+import EditorsSlider from './Components/EditorsSlider';
+import FeaturedSlider from './Components/FeaturedSlider';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Banner/>
+      {/* <FlagSection/> */}
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/manuscript-Publication' element={<ManuscriptPublication/>} />
+        <Route path='/how-to-submit' element={<HowToSubmit/>} />
+        <Route path='/faq' element={<FAQs/>} />
+        <Route path='/why-choose' element={<WhyChoose/>} />
+        <Route path='/review-process' element={<ReviewProcess/>} />
+        <Route path='/manuscript-preparation' element={<ManuscriptPreparation/>} />
+        <Route path='/cfp' element={<Cfp/>} />
+      </Routes>
+      </BrowserRouter>
+      <FeaturedSlider/>
+      <EditorsSlider/>
+     {/* <div>He this is first </div> */}
+     <Footer/>
     </div>
   );
 }
