@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import FlagSection from './Components/FlagSection';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import WhyChoose from './Components/WhyChoose';
@@ -14,6 +13,9 @@ import HowToSubmit from './Pages/HowToSubmit';
 import ManuscriptPublication from './Pages/ManuscriptPublication';
 import EditorsSlider from './Components/EditorsSlider';
 import FeaturedSlider from './Components/FeaturedSlider';
+import Statistics from './Pages/Statistics';
+import CopyrightPolicy from './Pages/CopyRightPolicy';
+import CitationReports from './Pages/CitationReports';
 
 function App() {
   return (
@@ -30,6 +32,9 @@ function App() {
         <Route path='/why-choose' element={<WhyChoose/>} />
         <Route path='/review-process' element={<ReviewProcess/>} />
         <Route path='/manuscript-preparation' element={<ManuscriptPreparation/>} />
+        <Route path='/statistics' element={<Statistics/>} />
+        <Route path='/copyright-policy' element={<CopyrightPolicy/>} />
+        <Route path='/citation-reports' element={<CitationReports/>} />
         <Route path='/cfp' element={<Cfp/>} />
       </Routes>
       </BrowserRouter>

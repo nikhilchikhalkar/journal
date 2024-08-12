@@ -1,24 +1,35 @@
 import React from 'react';
-import { Container, Typography, Accordion, AccordionDetails, List, ListItem, FormControl, Select, MenuItem, Button, Box } from '@mui/material';
+import { Container, Typography, AccordionDetails, List, ListItem, FormControl, Select, MenuItem, Button, Box, Grid } from '@mui/material';
+import SideBar from '../Components/SideBar';
 
 const ManuscriptPublication = () => {
   return (
-    <Container maxWidth="md" sx={{ padding: 4 }}>
-      <Accordion>
+    <>
+
+<Grid container justifyContent={"center"} marginX={"auto"}   sx={{overflow:"auto", gap:"10px"}} marginTop={"10px"}  height="100vh">
+      {/* Left Side List */}
+      <Grid item xs={12} sm={2} marginBottom={"auto"}  bgcolor="#00C1A1" color={'white'} borderRadius={"10px"} p={2}>
+        <SideBar/>
+      </Grid>
+
+      {/* Right Side Content */}
+      <Grid item xs={12} sm={8} overflow={"hidde"} flexGrow={1} p={2} borderRadius={"10px"} bgcolor="#f5f5f5" marginx={"auto"} >
+      <Container maxWidth="md" sx={{ padding: 4 }}>
+      <Box>
         <Box
         sx={{padding: 4}}
         //   expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography variant="h6">IOSR Manuscript Handling Charges</Typography>
+          <Typography variant="h6">Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Manuscript Handling Charges</Typography>
         </Box>
         <AccordionDetails>
           <Typography variant="body1" paragraph>
-            <strong>IOSR Journals</strong> is a self-supporting organization and does not receive funding from any institution or government. Hence, the operation of the journal is solely financed by the processing fees received from authors. The processing fees are required to meet operations expenses such as employees, salaries, internet services, electricity, etc.
+            <strong>Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals</strong> is a self-supporting organization and does not receive funding from any institution or government. Hence, the operation of the journal is solely financed by the processing fees received from authors. The processing fees are required to meet operations expenses such as employees, salaries, internet services, electricity, etc.
           </Typography>
           <Typography variant="body1" paragraph>
-            Being an Open Access Journal, IOSR Journals does not receive payment for subscriptions as the journals are freely accessible over the internet. It costs money to produce a peer-reviewed, edited, and formatted article that is ready for online publication, and to host it on a server that is freely accessible without barriers around the clock. We ask that, as a small part of the cost of doing the research, the author, institution, or funding agency pays a modest fee to help cover the actual cost of the essential final step, the publication.
+            Being an Open Access Journal, Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals does not receive payment for subscriptions as the journals are freely accessible over the internet. It costs money to produce a peer-reviewed, edited, and formatted article that is ready for online publication, and to host it on a server that is freely accessible without barriers around the clock. We ask that, as a small part of the cost of doing the research, the author, institution, or funding agency pays a modest fee to help cover the actual cost of the essential final step, the publication.
           </Typography>
           <Typography variant="h6" align="justify" color="error">
             Manuscript Handling Charges: 3200 INR / 75 USD
@@ -67,8 +78,13 @@ const ManuscriptPublication = () => {
             </Button>
           </form>
         </AccordionDetails>
-      </Accordion>
+      </Box>
     </Container>
+      </Grid>
+    </Grid>
+   
+
+     </>
   );
 };
 

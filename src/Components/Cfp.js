@@ -1,7 +1,5 @@
 import React from 'react'
 import PublicationProcess from './PublicationProcess'
-import FeaturedSlider from './FeaturedSlider'
-import EditorsSlider from './EditorsSlider'
 import { Box, Grid, Typography } from '@mui/material'
 import SideBar from './SideBar'
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
@@ -43,10 +41,10 @@ const Cfp = () => {
     </Box>
     <Box sx={{ textAlign: 'justify', my: 2 }}>
       <Typography variant="body1" component="p" sx={{ fontWeight: 'bold' }}>
-        IOSR Journals
+        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals
       </Typography>
       <Typography variant="body1" paragraph>
-        Globally welcomes research scholars &amp; scientists from different domains in its realm of Open Access Publication. Through the integration of scientific researchers &amp; industrial practitioners, each Call for Papers by IOSR Journals becomes another success story of its contribution towards the prosperity of scientific research, social infrastructure &amp; industrial advancement.
+        Globally welcomes research scholars &amp; scientists from different domains in its realm of Open Access Publication. Through the integration of scientific researchers &amp; industrial practitioners, each Call for Papers by Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals becomes another success story of its contribution towards the prosperity of scientific research, social infrastructure &amp; industrial advancement.
       </Typography>
     </Box>
     <Box sx={{ width: '100%', my: 2 }}>
@@ -89,8 +87,7 @@ const Cfp = () => {
       </Grid>
     </Grid>
         
-        <FeaturedSlider/>
-        <EditorsSlider/>
+      
     </div>
   )
 }

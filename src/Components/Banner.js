@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
-import flag from "../assets/flag.jpeg"
 const Banner = () => {
   return (
     <Box
@@ -39,7 +38,7 @@ const Banner = () => {
         }}
       >
         <Typography variant="h1" sx={{ mb: 2, fontWeight: 'bold', fontSize: '2.5rem' }}>
-          IOT Journals
+          Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals
         </Typography>
         <Typography variant="body1" sx={{ mb: 4, fontSize: '1.2rem' }}>
           Pointing your research in the right direction

@@ -6,22 +6,22 @@ const About = () => {
     <Container maxWidth="md" sx={{ padding: 4 }}>
       <article className="post">
         <Typography variant="h4" gutterBottom>
-          About IOSR
+          About Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)
         </Typography>
         <div className="content-block">
           <Typography variant="h5" gutterBottom>
             Overview
           </Typography>
           <Typography variant="body1" paragraph>
-            The International Organization of Scientific Research (IOSR) is an independent private organization. The IOSR provides support and services to education professionals and researchers around the world, especially those from developing countries.
+            The International Organization of Scientific Research (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)) is an independent private organization. The Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) provides support and services to education professionals and researchers around the world, especially those from developing countries.
           </Typography>
           <Typography variant="body1" paragraph>
-            IOSR is an association of scientists, researchers, professors, directors, managers, and engineers from various fields, including engineering, management, pharmacy, applied science, and mathematics.
+            Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) is an association of scientists, researchers, professors, directors, managers, and engineers from various fields, including engineering, management, pharmacy, applied science, and mathematics.
           </Typography>
           <Typography variant="body1" paragraph>
-            IOSR helps researchers free of cost by providing research assistance and guidance with the help of its worldwide association members. For more details, visit:{' '}
-            <Link href="http://www.iosr.org" target="_blank" rel="noopener">
-              www.iosr.org
+            Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) helps researchers free of cost by providing research assistance and guidance with the help of its worldwide association members. For more details, visit:{' '}
+            <Link href="http://www.Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI).org" target="_blank" rel="noopener">
+              www.Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI).org
             </Link>
           </Typography>
         </div>
@@ -36,8 +36,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="IOSR-JEN.html" color="secondary">
-                        IOSR Journal of Engineering (IOSR-JEN)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JEN.html" color="secondary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Engineering (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JEN)
                       </Link>
                     }
                   />
@@ -45,8 +45,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="IOSR-JCE.html" color="secondary">
-                        IOSR Journal of Computer Engineering (IOSR-JCE)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JCE.html" color="secondary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Computer Engineering (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JCE)
                       </Link>
                     }
                   />
@@ -54,8 +54,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jeee.html" color="secondary">
-                        IOSR Journal of Electrical and Electronics Engineering (IOSR-JEEE)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jeee.html" color="secondary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Electrical and Electronics Engineering (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JEEE)
                       </Link>
                     }
                   />
@@ -63,8 +63,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jmce.html" color="secondary">
-                        IOSR Journal of Mechanical and Civil Engineering (IOSR-JMCE)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jmce.html" color="secondary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Mechanical and Civil Engineering (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JMCE)
                       </Link>
                     }
                   />
@@ -72,8 +72,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jece.html" color="secondary">
-                        IOSR Journal of Electronics and Communication Engineering (IOSR-JECE)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jece.html" color="secondary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Electronics and Communication Engineering (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JECE)
                       </Link>
                     }
                   />
@@ -81,8 +81,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jvlsi.html" color="secondary">
-                        IOSR Journal of VLSI and Signal Processing (IOSR-JVSP)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jvlsi.html" color="secondary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of VLSI and Signal Processing (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JVSP)
                       </Link>
                     }
                   />
@@ -90,8 +90,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jmca.html" color="secondary">
-                        IOSR Journal on Mobile Computing & Application (IOSR-JMCA)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jmca.html" color="secondary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal on Mobile Computing & Application (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JMCA)
                       </Link>
                     }
                   />
@@ -99,8 +99,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jpte.html" color="secondary">
-                        IOSR Journal of Polymer and Textile Engineering (IOSR-JPTE)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jpte.html" color="secondary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Polymer and Textile Engineering (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JPTE)
                       </Link>
                     }
                   />
@@ -108,8 +108,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jhss.html" color="primary">
-                        IOSR Journal of Humanities and Social Science (IOSR-JHSS)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jhss.html" color="primary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Humanities and Social Science (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JHSS)
                       </Link>
                     }
                   />
@@ -117,8 +117,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jrme.html" color="primary">
-                        IOSR Journal of Research & Method in Education (IOSR-JRME)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jrme.html" color="primary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Research & Method in Education (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JRME)
                       </Link>
                     }
                   />
@@ -126,8 +126,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jbm.html" color="primary">
-                        IOSR Journal of Business and Management (IOSR-JBM)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jbm.html" color="primary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Business and Management (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JBM)
                       </Link>
                     }
                   />
@@ -135,8 +135,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jef.html" color="primary">
-                        IOSR Journal of Economics and Finance (IOSR-JEF)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jef.html" color="primary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Economics and Finance (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JEF)
                       </Link>
                     }
                   />
@@ -149,8 +149,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="IOSR-PHR.html" color="success.main">
-                        IOSR Journal of Pharmacy (IOSR-PHR)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-PHR.html" color="success.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Pharmacy (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-PHR)
                       </Link>
                     }
                   />
@@ -158,8 +158,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jpbs.html" color="success.main">
-                        IOSR Journal of Pharmacy and Biological Science (IOSR-JPBS)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jpbs.html" color="success.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Pharmacy and Biological Science (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JPBS)
                       </Link>
                     }
                   />
@@ -167,8 +167,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jnhs.html" color="success.main">
-                        IOSR Journal of Nursing and Health Science (IOSR-JNHS)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jnhs.html" color="success.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Nursing and Health Science (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JNHS)
                       </Link>
                     }
                   />
@@ -176,8 +176,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jdms.html" color="success.main">
-                        IOSR Journal of Dental and Medical Sciences (IOSR-JDMS)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jdms.html" color="success.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Dental and Medical Sciences (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JDMS)
                       </Link>
                     }
                   />
@@ -185,8 +185,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-javs.html" color="success.main">
-                        IOSR Journal of Agriculture and Veterinary Science (IOSR-JAVS)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-javs.html" color="success.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Agriculture and Veterinary Science (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JAVS)
                       </Link>
                     }
                   />
@@ -194,8 +194,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jspe.html" color="info.main">
-                        IOSR Journal of Sports and Physical Education (IOSR-JSPE)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jspe.html" color="info.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Sports and Physical Education (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JSPE)
                       </Link>
                     }
                   />
@@ -203,8 +203,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jestft.html" color="info.main">
-                        IOSR Journal of Environmental Science, Toxicology and Food Technology
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jestft.html" color="info.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Environmental Science, Toxicology and Food Technology
                       </Link>
                     }
                   />
@@ -212,8 +212,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jbb.html" color="info.main">
-                        IOSR Journal of Biotechnology and Biochemistry (IOSR-JBB)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jbb.html" color="info.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Biotechnology and Biochemistry (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JBB)
                       </Link>
                     }
                   />
@@ -221,8 +221,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jap.html" color="error.main">
-                        IOSR Journal of Applied Physics (IOSR-JAP)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jap.html" color="error.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Applied Physics (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JAP)
                       </Link>
                     }
                   />
@@ -230,8 +230,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jac.html" color="error.main">
-                        IOSR Journal of Applied Chemistry (IOSR-JAC)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jac.html" color="error.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Applied Chemistry (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JAC)
                       </Link>
                     }
                   />
@@ -239,8 +239,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jm.html" color="error.main">
-                        IOSR Journal of Mathematics (IOSR-JM)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jm.html" color="error.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Mathematics (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JM)
                       </Link>
                     }
                   />
@@ -248,8 +248,8 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="iosr-jagg.html" color="error.main">
-                        IOSR Journal of Applied Geology and Geophysics (IOSR-JAGG)
+                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jagg.html" color="error.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Applied Geology and Geophysics (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JAGG)
                       </Link>
                     }
                   />

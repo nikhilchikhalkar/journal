@@ -41,13 +41,13 @@ function Header() {
             </NavDropdown>
             <NavDropdown title="Quality Report" id="basic-nav-dropdown">
               {/* <NavDropdown.Item href="#action/3.1">Author Guidelines</NavDropdown.Item> */}
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/statistics">
                 Statistics
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/citation-reports">
                 Citation Report
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/copyright-policy">
                 Copyright Policy
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

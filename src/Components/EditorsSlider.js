@@ -4,13 +4,18 @@ import { Box, Container, Typography, IconButton } from '@mui/material';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import prof1 from "../assets/prof1.jpg"
+import prof2 from "../assets/prof2.jpg"
+import prof3 from "../assets/prof3.jpg"
+import prof4 from "../assets/prof4.jpg"
+import prof5 from "../assets/prof5.jpg"
 
 const data = [
-  { img: 'https://www.iosrjournals.org/imgs/iosr-jdms/6.jpg', name: 'Prof. (Dr.) Shamim Akhtar', degree: 'MBBS, MD(Pathology)' },
-  { img: 'https://www.iosrjournals.org/imgs/iosr-jdms/2.jpeg', name: 'Rovena Bode', degree: 'PhD in Normal Anatomy, Morphology Department' },
-  { img: 'https://www.iosrjournals.org/imgs/iosr-jdms/3.jpg', name: 'Prof (Dr) Kumari Sandhya', degree: 'MBBS, DGO, MS(Anatomy), CCHFWM, FICMCH' },
-  { img: 'https://www.iosrjournals.org/imgs/iosr-jdms/4.jpg', name: 'Ahmad Al Nashar', degree: 'Ph.D, Oral and Maxillofacial Surgery' },
-  { img: 'https://www.iosrjournals.org/imgs/iosr-jdms/5.jpg', name: 'Dr. Kapil Amgain', degree: 'MSc Anatomy, MD (AM), Anatomy' }
+  { img: prof1, name: 'Prof. (Dr.) Shamim Akhtar', degree: 'MBBS, MD(Pathology)' },
+  { img: prof2, name: 'Rovena Bode', degree: 'PhD in Normal Anatomy, Morphology Department' },
+  { img: prof3, name: 'Prof (Dr) Kumari Sandhya', degree: 'MBBS, DGO, MS(Anatomy), CCHFWM, FICMCH' },
+  { img: prof4, name: 'Ahmad Al Nashar', degree: 'Ph.D, Oral and Maxillofacial Surgery' },
+  { img: prof5, name: 'Dr. Kapil Amgain', degree: 'MSc Anatomy, MD (AM), Anatomy' }
 ];
 
 const settings = {
@@ -58,7 +63,8 @@ const EditorsSlider = () => {
                   src={item.img}
                   alt={item.name}
                   style={{
-                    width: '100%',
+                    width: '70%',
+                    // padding: "10px",
                     height: 'auto',
                     objectFit: 'cover',
                     maxHeight: '200px',

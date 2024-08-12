@@ -1,27 +1,31 @@
 import React from 'react';
 import SimpleCard from './SimpleCard';
 import { Box, Container, Grid, Typography } from '@mui/material';
+import BroadScope from "../assets/card1.jpg"
+import widelycity from "../assets/widely city.jpeg"
+import indexed from "../assets/indexed.png"
+import reviewed from "../assets/reviewed.jpg"
 
 const cardData = [
   {
-    image: 'https://www.iosrjournals.org/imgs/IMG-20190731-WA0018.jpg',
-    title: 'Card Title 1',
-    description: 'This is a description for card 1.',
+    image: BroadScope,
+    title: 'Broad Scope',
+    description: 'Journal covers almost all fields of Engineering, Applied Science.....',
   },
   {
-    image: 'https://www.iosrjournals.org/imgs/ack.jpeg',
-    title: 'Card Title 2',
-    description: 'This is a description for card 2.',
+    image: widelycity,
+    title: 'Widely Cited',
+    description: 'Open access means that your work will always be freely available to the world..',
   },
   {
-    image: 'https://www.iosrjournals.org/imgs/review.png',
-    title: 'Card Title 3',
-    description: 'This is a description for card 3.',
+    image: indexed,
+    title: 'Indexed',
+    description: 'Increase visibility, availability, and readership of your work on',
   },
   {
-    image: 'https://www.iosrjournals.org/imgs/iosr-print-version1.jpg',
-    title: 'Card Title 3',
-    description: 'This is a description for card 3.',
+    image: reviewed,
+    title: '10 Peer-Reviewed',
+    description: 'All articles are evaluated using criteria including the excellence',
   },
   // Add more cards as needed
 ];

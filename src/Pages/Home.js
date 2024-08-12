@@ -1,5 +1,4 @@
 import React from 'react'
-import Banner from '../Components/Banner'
 import PublicationProcess from '../Components/PublicationProcess'
 import { Box } from '@mui/material'
 import MainSection from '../Components/LatestNews'

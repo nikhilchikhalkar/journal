@@ -3,16 +3,9 @@ import {  Box, Grid,  Typography } from '@mui/material';
 import SideBar from './SideBar';
 
 
-import { Card, CardContent, Link } from '@mui/material';
-import { styled } from '@mui/system';
+import {  CardContent, Link } from '@mui/material';
 
-// Styled component with basic CSS properties
-const BasicCard = styled(Card)({
-  marginBottom: '16px', // Add margin between cards
-  border: '1px solid #ddd', // Light border color
-  boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)', // Basic shadow for card
-  padding: '16px', // Padding inside the card
-});
+
 function WhyChoose() {
   return (
     <>
@@ -48,45 +41,46 @@ function WhyChoose() {
       </Typography>
     </Box>
         <Box>
-        <BasicCard>
+        <Box sx={{
+        backgroundColor: '#f5f5f5',}}>
       <CardContent>
         <Typography variant="body1" paragraph>
           <strong>1. Top Indexing:&nbsp;</strong>
-          IOSR Journals index all papers in world top indexing like: NASA ads, CrossRef, ANED (American National Engineering Database) etc, CAS (Chemical Abstract Service), Google Scholar etc.
+          Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals index all papers in world top indexing like: NASA ads, CrossRef, ANED (American National Engineering Database) etc, CAS (Chemical Abstract Service), Google Scholar etc.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>2. DOI:&nbsp;</strong>
-          IOSR Journals allot DOI (Digital Object Identifier) to each published article.
+          Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals allot DOI (Digital Object Identifier) to each published article.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>3. Blind Peer Review Process:&nbsp;</strong>
-          The main aim of blind peer review process is to maintain the quality of published articles under IOSR Journals.
+          The main aim of blind peer review process is to maintain the quality of published articles under Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>4. Rapid Publication Process:&nbsp;</strong>
-          The publication process generally takes only 20-25 days for an article publication. IOSR Journals dispatch hard copy of Journal within 7 days of online publication by speed post.
+          The publication process generally takes only 20-25 days for an article publication. Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals dispatch hard copy of Journal within 7 days of online publication by speed post.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>5. Subject Specific Journals:</strong>&nbsp;
-          There are different subject specific Journals of different branches of globally accepted technologies under the umbrella of IOSR Journals.
+          There are different subject specific Journals of different branches of globally accepted technologies under the umbrella of Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>6. Online and Print publication both:&nbsp;</strong>
-          IOSR Journals publish paper online and print version both.
+          Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals publish paper online and print version both.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>7. Certificates:</strong>&nbsp;
-          IOSR Journals provide hard copy of Certificates to individual author free of Cost.
+          Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals provide hard copy of Certificates to individual author free of Cost.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>8. Quick Reply of any query:</strong>&nbsp;
           Anybody can get answers of their queries within 24 hours by mailing at{' '}
-          <Link href="mailto:support@iosrmail.org" style={{ color: '#007bff' }}>
-            support@iosrmail.org
+          <Link href="mailto:support@Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)mail.org" style={{ color: '#007bff' }}>
+            support@Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)mail.org
           </Link>
         </Typography>
       </CardContent>
-    </BasicCard>
+    </Box>
         </Box>
       </Grid>
     </Grid>
