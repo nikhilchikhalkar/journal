@@ -7,31 +7,23 @@ const Footer = () => {
     <Box sx={{ bgcolor: 'primary.main', color: 'white', py: 6, }}>
       <Container maxWidth="lg"  >
         <Grid container spacing={4}>
-          {/* About Section */}
-          {/* <Grid item xs={12} sm={4}>
-            <Typography variant="h6" gutterBottom>
-              About Us
-            </Typography>
-            <Typography variant="body2">
-              We are a leading research journal, dedicated to publishing the latest advancements in various fields. Our mission is to foster knowledge and innovation through quality publications.
-            </Typography>
-          </Grid> */}
+          
 
           {/* Links Section */}
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" gutterBottom>
               Quick Links
             </Typography>
-            <Link href="#" color="inherit" variant="body2" display="block" sx={{ mt: 1 }}>
+            <Link href="/cfp" color="inherit" variant="body2" display="block" sx={{ mt: 1, textDecoration:'none' }}>
               Important Dates
             </Link>
-            <Link href="#" color="inherit" variant="body2" display="block" sx={{ mt: 1 }}>
-              Why Choose IOT Journal
+            <Link href="/why-choose" color="inherit" variant="body2" display="block" sx={{ mt: 1, textDecoration:'none' }}>
+              Why Choose JIT-AI Journal
             </Link>
-            <Link href="#" color="inherit" variant="body2" display="block" sx={{ mt: 1 }}>
+            <Link href="/copyright-policy" color="inherit" variant="body2" display="block" sx={{ mt: 1, textDecoration:'none' }}>
               Copyright Policy
             </Link>
-            <Link href="#" color="inherit" variant="body2" display="block" sx={{ mt: 1 }}>
+            <Link href="/contact-us" color="inherit" variant="body2" display="block" sx={{ mt: 1, textDecoration:'none' }}>
               Contact
             </Link>
           </Grid>
@@ -40,16 +32,16 @@ const Footer = () => {
             <Typography variant="h6" gutterBottom>
               For Authors
             </Typography>
-            <Link href="#" color="inherit" variant="body2" display="block" sx={{ mt: 1 }}>
+            <Link href="/how-to-submit" color="inherit" variant="body2" display="block" sx={{ mt: 1, textDecoration:'none' }}>
               How to Submit Your Paper
             </Link>
-            <Link href="#" color="inherit" variant="body2" display="block" sx={{ mt: 1 }}>
+            <Link href="/manuscript-preparation" color="inherit" variant="body2" display="block" sx={{ mt: 1, textDecoration:'none' }}>
               Manuscript Preparation Guidelines
             </Link>
-            <Link href="#" color="inherit" variant="body2" display="block" sx={{ mt: 1 }}>
+            <Link href="#" color="inherit" variant="body2" display="block" sx={{ mt: 1, textDecoration:'none' }}>
               Copy Right Form
             </Link>
-            <Link href="#" color="inherit" variant="body2" display="block" sx={{ mt: 1 }}>
+            <Link href="/faq" color="inherit" variant="body2" display="block" sx={{ mt: 1, textDecoration:'none' }}>
               FAQ
             </Link>
           </Grid>
@@ -79,7 +71,7 @@ const Footer = () => {
         {/* Copyright Section */}
         <Box sx={{ textAlign: 'center', mt: 4 }}>
           <Typography variant="body2">
-            &copy; {new Date().getFullYear()} Research Journal. All rights reserved.
+            &copy; {new Date().getFullYear()} JIT-AI Journal. All rights reserved.
           </Typography>
         </Box>
       </Container>

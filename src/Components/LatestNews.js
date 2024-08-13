@@ -35,7 +35,7 @@ const CardGrid = () => {
     <Box sx={{backgroundColor:"#67A9F7", padding: 4,marginTop: 2}}>
     <Container >
         <Typography variant="h4" marginBottom={"20px"}>
-        WHY PUBLISH IN IOT?
+        WHY PUBLISH IN JIT-AI?
         </Typography>
       <Grid container spacing={1}>
         {cardData.map((card, index) => (

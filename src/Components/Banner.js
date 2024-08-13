@@ -1,6 +1,7 @@
 import React from 'react';
-import { Box, Typography, Button } from '@mui/material';
-const Banner = () => {
+import { Box, Typography } from '@mui/material';
+import bannerimg from "../assets/banner.avif" 
+const Banner = ({title}) => {
   return (
     <Box
       id="banner"
@@ -11,7 +12,8 @@ const Banner = () => {
         alignItems: 'center',
         textAlign: 'center',
         py: 6,
-        backgroundImage: 'url(https://plus.unsplash.com/premium_photo-1661411311489-46be8dfc82bd?q=80&w=1830&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)', // Replace with your image URL
+        backgroundImage: `url(${bannerimg})`,
+        // backgroundImage: 'url(https://plus.unsplash.com/premium_photo-1661411311489-46be8dfc82bd?q=80&w=1830&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)', // Replace with your image URL
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         minHeight: '300px',
@@ -38,12 +40,12 @@ const Banner = () => {
         }}
       >
         <Typography variant="h1" sx={{ mb: 2, fontWeight: 'bold', fontSize: '2.5rem' }}>
-          Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals
+          Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)
         </Typography>
         <Typography variant="body1" sx={{ mb: 4, fontSize: '1.2rem' }}>
-          Pointing your research in the right direction
+        Create and express an inroad towards the intelligent applications for gen next...
         </Typography>
-        <Button
+        {/* <Button
           variant="contained"
           color="primary"
           sx={{
@@ -54,7 +56,10 @@ const Banner = () => {
           href="#featured-list"
         >
           Find Journals
-        </Button>
+        </Button> */}
+        <Typography variant='h4' sx={{display:"flex", justifyContent:"start", marginX:"auto", paddingLeft:"50px",fontWeight:"bold"}}>
+          {title} 
+        </Typography>
       </Box>
     </Box>
   );

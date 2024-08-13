@@ -6,13 +6,13 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const data = [
-  { icon: <FaUser />, count: '1800+', label: 'Editorial Team' },
-  { icon: <FaBook />, count: '12000+', label: 'Articles published' },
-  { icon: <FaBriefcase />, count: '23', label: 'Journals' },
-  { icon: <FaUsers />, count: '26000+', label: 'Authors' },
-  { icon: <FaGlobe />, count: '10', label: 'Indexing Services' },
-  { icon: <FaFlag />, count: '600', label: 'Conference Published' },
-  { icon: <FaHandshake />, count: '1200+ Eminent', label: 'Faculty' },
+  { icon: <FaUser />, count: '1800+', label: 'Editorial Team',color:'#00bfe7' },
+  { icon: <FaBook />, count: '12000+', label: 'Articles published',color:'#00c1a1' },
+  { icon: <FaBriefcase />, count: '23', label: 'Journals', color:'#FC654C' },
+  { icon: <FaUsers />, count: '26000+', label: 'Authors', color:'#ff9c00' },
+  { icon: <FaGlobe />, count: '10', label: 'Indexing Services', color:'#58cf00' },
+  { icon: <FaFlag />, count: '600', label: 'Conference Published', color:'#00bfe7' },
+  { icon: <FaHandshake />, count: '1200+ Eminent', label: 'Faculty', color:'#FC654C' },
 ];
 const CustomNextArrow = (props) => {
   const { onClick } = props;
@@ -93,8 +93,8 @@ export default function FeaturedSlider() {
         <Slider {...settings}>
           {data.map((item, index) => (
             <Box key={index} sx={{ textAlign: 'center', px: 2 }}>
-              <Box sx={{ fontSize: '48px', color: '#1976d2' }}>{item.icon}</Box>
-              <Typography variant="h4" sx={{ fontWeight: 'bold', my: 1 }}>
+              <Box sx={{ fontSize: '48px', color:item.color }}>{item.icon}</Box>
+              <Typography variant="h5" sx={{ fontWeight: 'bold', my: 1, fontSize:'1.1rem' }}>
                 {item.count}
               </Typography>
               <Typography variant="body1">{item.label}</Typography>

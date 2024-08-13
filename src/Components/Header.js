@@ -9,14 +9,14 @@ function Header() {
     <>
   <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Iot Journals</Navbar.Brand>
+        <Navbar.Brand href="#home">JIT-AI Journals</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/cfp">Call For Paper</Nav.Link>
-            <NavDropdown title="IOT Journals" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/why-choose">Why Choose IOT Journals</NavDropdown.Item>
+            <NavDropdown title="JIT-AI Journals" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/why-choose">Why Choose JIT-AI Journals</NavDropdown.Item>
               {/* <NavDropdown.Item href="#action/3.2">
                 Call For Paper
               </NavDropdown.Item> */}
@@ -50,11 +50,11 @@ function Header() {
               <NavDropdown.Item href="/copyright-policy">
                 Copyright Policy
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/PublishingStandards">
                 Publishing Standards
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">Contact us</Nav.Link>
+            <Nav.Link href="/contact-us">Contact us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

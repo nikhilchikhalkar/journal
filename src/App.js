@@ -2,26 +2,27 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import WhyChoose from './Components/WhyChoose';
-import Cfp from './Components/Cfp';
+import FeaturedSlider from './Components/FeaturedSlider';
+import EditorsSlider from './Components/EditorsSlider';
 import Home from './Pages/Home';
-import Banner from './Components/Banner';
 import ReviewProcess from './Pages/ReviewProcess';
 import ManuscriptPreparation from './Pages/ManuscriptGuideline';
 import FAQs from './Pages/FAQs';
 import HowToSubmit from './Pages/HowToSubmit';
 import ManuscriptPublication from './Pages/ManuscriptPublication';
-import EditorsSlider from './Components/EditorsSlider';
-import FeaturedSlider from './Components/FeaturedSlider';
 import Statistics from './Pages/Statistics';
 import CopyrightPolicy from './Pages/CopyRightPolicy';
 import CitationReports from './Pages/CitationReports';
+import Cfp from './Pages/Cfp';
+import WhyChoose from './Pages/WhyChoose';
+import Contact from './Pages/Contact';
+import PublishingStandards from './Pages/PublishingStandards';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Banner/>
+      {/* <Banner/> */}
       {/* <FlagSection/> */}
       <BrowserRouter>
       <Routes>
@@ -36,6 +37,8 @@ function App() {
         <Route path='/copyright-policy' element={<CopyrightPolicy/>} />
         <Route path='/citation-reports' element={<CitationReports/>} />
         <Route path='/cfp' element={<Cfp/>} />
+        <Route path='/PublishingStandards' element={<PublishingStandards/>} />
+        <Route path='/contact-us' element={<Contact/>} />
       </Routes>
       </BrowserRouter>
       <FeaturedSlider/>

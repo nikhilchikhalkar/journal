@@ -12,10 +12,12 @@ import {
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import SideBar from '../Components/SideBar';
 import { Link } from 'react-router-dom';
+import Banner from '../Components/Banner';
 
 const FAQs = () => {
   return (
-
+<>
+<Banner title="FAQ"/>
     <Grid container justifyContent={"center"} marginX={"auto"}   sx={{overflow:"auto", gap:"10px"}} marginTop={"10px"}  height="100vh">
     {/* Left Side List */}
     <Grid item xs={12} sm={2} marginBottom={"auto"}  bgcolor="#00C1A1" color={'white'} borderRadius={"10px"} p={2}>
@@ -26,7 +28,7 @@ const FAQs = () => {
     <Grid item xs={12} sm={8} overflow={"hidde"} flexGrow={1} p={2} borderRadius={"10px"} bgcolor="#f5f5f5" marginx={"auto"} >
     <Box sx={{ padding: '20px', backgroundColor: '#f5f5f5', borderRadius: '8px' }}>
       <Typography variant="h6" gutterBottom>
-        FAQs About Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals
+        FAQs About  (JIT-AI) Journals
       </Typography>
       <Divider sx={{ marginBottom: '20px' }} />
 
@@ -34,44 +36,44 @@ const FAQs = () => {
         <Grid item xs={12}>
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-header">
-              <Typography>Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals are International Journal or not?</Typography>
+              <Typography> (JIT-AI) Journals are International Journal or not?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals are International Journals. You can check the editorial board and published papers. Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals are accepted globally.
+                 (JIT-AI) Journals are International Journals. You can check the editorial board and published papers.  (JIT-AI) Journals are accepted globally.
               </Typography>
             </AccordionDetails>
           </Accordion>
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel2a-content" id="panel2a-header">
-              <Typography>What is the review type of Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals?</Typography>
+              <Typography>What is the review type of  (JIT-AI) Journals?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals follow a blind peer review process for selecting only the best quality papers. It accepts only 10-15% quality papers.
+                 (JIT-AI) Journals follow a blind peer review process for selecting only the best quality papers. It accepts only 10-15% quality papers.
               </Typography>
             </AccordionDetails>
           </Accordion>
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel3a-content" id="panel3a-header">
-              <Typography>Whether Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals are indexed Journals or not?</Typography>
+              <Typography>Whether  (JIT-AI) Journals are indexed Journals or not?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals are widely indexed. Published papers are indexed in top indexes like NASA ADS, CrossRef, ArXiv, Google Scholar, Cabell's Directory, EBSCO Host, Index Copernicus, ANED, Ulrich Web, and many more.
+                 (JIT-AI) Journals are widely indexed. Published papers are indexed in top indexes like NASA ADS, CrossRef, ArXiv, Google Scholar, Cabell's Directory, EBSCO Host, Index Copernicus, ANED, Ulrich Web, and many more.
               </Typography>
             </AccordionDetails>
           </Accordion>
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel4a-content" id="panel4a-header">
-              <Typography>Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals are online Journals or Print Journals?</Typography>
+              <Typography> (JIT-AI) Journals are online Journals or Print Journals?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals publish papers both online and in hard copy (print version).
+                 (JIT-AI) Journals publish papers both online and in hard copy (print version).
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -82,7 +84,7 @@ const FAQs = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals provide hard copies of certificates to all authors after the publication of the paper.
+                 (JIT-AI) Journals provide hard copies of certificates to all authors after the publication of the paper.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -93,29 +95,29 @@ const FAQs = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals dispatch hard copies of Journals and certificates within 7 days of online publication. After that, you can track your post using a tracking ID.
+                 (JIT-AI) Journals dispatch hard copies of Journals and certificates within 7 days of online publication. After that, you can track your post using a tracking ID.
               </Typography>
             </AccordionDetails>
           </Accordion>
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel7a-content" id="panel7a-header">
-              <Typography>What is the additional feature with Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals?</Typography>
+              <Typography>What is the additional feature with  (JIT-AI) Journals?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals provide DOI (Digital Object Identifier) to each article, making your paper acceptable globally.
+                 (JIT-AI) Journals provide DOI (Digital Object Identifier) to each article, making your paper acceptable globally.
               </Typography>
             </AccordionDetails>
           </Accordion>
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel8a-content" id="panel8a-header">
-              <Typography>What is the Impact Factor of Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals?</Typography>
+              <Typography>What is the Impact Factor of  (JIT-AI) Journals?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                All Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals have a high Impact Factor. You can check it through the following link: <a href="http://Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)journals.org/impact-factor.html" target="_blank" rel="noopener noreferrer">Impact Factor</a>
+                All  (JIT-AI) Journals have a high Impact Factor. You can check it through the following link: <a href="http:// (JIT-AI)journals.org/impact-factor.html" target="_blank" rel="noopener noreferrer">Impact Factor</a>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -126,7 +128,7 @@ const FAQs = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                You can check all Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals statistics through the following link: <a href="http://www.Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)journals.org/stat.html" target="_blank" rel="noopener noreferrer">Journal Statistics</a>
+                You can check all  (JIT-AI) Journals statistics through the following link: <a href="http://www. (JIT-AI)journals.org/stat.html" target="_blank" rel="noopener noreferrer">Journal Statistics</a>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -137,7 +139,7 @@ const FAQs = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                Authors can check citation reports through the following link: <a href="http://www.Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)journals.org/citation.html" target="_blank" rel="noopener noreferrer">Citation Reports</a>
+                Authors can check citation reports through the following link: <a href="http://www. (JIT-AI)journals.org/citation.html" target="_blank" rel="noopener noreferrer">Citation Reports</a>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -152,7 +154,7 @@ const FAQs = () => {
           target="_blank"
           sx={{ padding: '10px 20px' }}
         >
-            <Link target='_Blank' to={'https://www.Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)journals.org/doc/FAQs.pdf'}style={{color:"white", textDecoration:"none"}} >
+            <Link target='_Blank' to={'https://www. (JIT-AI)journals.org/doc/FAQs.pdf'}style={{color:"white", textDecoration:"none"}} >
           FAQs About Paper Publication
             </Link>
         </Button>
@@ -160,7 +162,7 @@ const FAQs = () => {
     </Box>
     </Grid>
   </Grid>
-
+</>
 
   );
 };

@@ -6,12 +6,12 @@ const About = () => {
     <Container maxWidth="md" sx={{ padding: 4 }}>
       <article className="post">
         <Typography variant="h4" gutterBottom>
-          About Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)
+          About  (JIT-AI)
         </Typography>
         <div className="content-block">
-          <Typography variant="h5" gutterBottom>
+          {/* <Typography variant="h5" gutterBottom>
             Overview
-          </Typography>
+          </Typography> */}
           <Typography variant="body1" paragraph>
             The International Organization of Scientific Research (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)) is an independent private organization. The Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) provides support and services to education professionals and researchers around the world, especially those from developing countries.
           </Typography>
@@ -20,7 +20,7 @@ const About = () => {
           </Typography>
           <Typography variant="body1" paragraph>
             Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) helps researchers free of cost by providing research assistance and guidance with the help of its worldwide association members. For more details, visit:{' '}
-            <Link href="http://www.Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI).org" target="_blank" rel="noopener">
+            <Link sx={{textDecoration:'none'}} target="_blank" rel="noopener">
               www.Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI).org
             </Link>
           </Typography>
@@ -36,39 +36,43 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JEN.html" color="secondary">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Engineering (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JEN)
+                      <Link sx={{textDecoration:'none'}} color="secondary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Engineering (JIT-AI-JEN)
                       </Link>
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JCE.html" color="secondary">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Computer Engineering (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JCE)
+                      <Link sx={{textDecoration:'none'}} color="secondary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Computer Engineering (JIT-AI)-JCE
                       </Link>
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jeee.html" color="secondary">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Electrical and Electronics Engineering (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JEEE)
+                      <Link sx={{textDecoration:'none'}} color="secondary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Electrical and Electronics Engineering  (JIT-AI)-JEEE
                       </Link>
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jmce.html" color="secondary">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Mechanical and Civil Engineering (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JMCE)
+                      <Link sx={{textDecoration:'none'}} color="secondary">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Mechanical and Civil Engineering (JIT-AI)-JMCE
                       </Link>
                     }
                   />
                 </ListItem>
+{/* 
                 <ListItem>
                   <ListItemText
                     primary={
@@ -78,6 +82,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -87,6 +92,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -96,6 +102,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -105,6 +112,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -114,6 +122,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -123,6 +132,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -132,6 +142,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -140,48 +151,54 @@ const About = () => {
                       </Link>
                     }
                   />
-                </ListItem>
+                </ListItem> */}
+
               </List>
             </Grid>
 
             <Grid item xs={12} sm={6}>
               <List>
+
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-PHR.html" color="success.main">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Pharmacy (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-PHR)
+                      <Link   sx={{textDecoration:'none'}} color="success.main" >
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Pharmacy  (JIT-AI)-PHR
                       </Link>
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jpbs.html" color="success.main">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Pharmacy and Biological Science (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JPBS)
+                      <Link sx={{textDecoration:'none'}} color="success.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Pharmacy and Biological Science (JIT-AI)-JPBS
                       </Link>
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jnhs.html" color="success.main">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Nursing and Health Science (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JNHS)
+                      <Link sx={{textDecoration:'none'}} color="success.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Nursing and Health Science  (JIT-AI)-JNHS
                       </Link>
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link href="Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-jdms.html" color="success.main">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Dental and Medical Sciences (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)-JDMS)
+                      <Link sx={{textDecoration:'none'}} color="success.main">
+                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Dental and Medical Sciences  (JIT-AI)-JDMS
                       </Link>
                     }
                   />
                 </ListItem>
+{/* 
                 <ListItem>
                   <ListItemText
                     primary={
@@ -191,6 +208,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -200,6 +218,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -209,6 +228,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -218,6 +238,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -227,6 +248,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -236,6 +258,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -245,6 +268,7 @@ const About = () => {
                     }
                   />
                 </ListItem>
+
                 <ListItem>
                   <ListItemText
                     primary={
@@ -253,7 +277,8 @@ const About = () => {
                       </Link>
                     }
                   />
-                </ListItem>
+                </ListItem> */}
+                
               </List>
             </Grid>
           </Grid>

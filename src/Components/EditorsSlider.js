@@ -52,7 +52,7 @@ const EditorsSlider = () => {
 
   return (
     <Box>
-        <Typography sx={{width:"80%", marginX:"auto", fontWeight:"bold", fontSize:"2rem"}} >IOT Global Editors</Typography>
+        <Typography sx={{width:"80%", marginX:"auto", fontWeight:"bold", fontSize:"2rem"}} >JIT-AI Global Editors :-</Typography>
 <Box sx={{ py: 4, width:"80%", display:"flex", position:"relative", justifyContent:"center", marginX:"auto"}}>
       <Container maxWidth={"lg"}>
         <Slider {...settings} ref={sliderRef}>

@@ -24,25 +24,33 @@ function PublicationProcess() {
             flexWrap: 'nowrap', // Ensures items stay in a single row
             overflowX: 'auto',  // Adds horizontal scrolling if needed
             padding: 0,
-            gap: 2, // Adds spacing between items
+            // gap: 2, // Adds spacing between items
           }}
         >
+
+
+
           {/* Submit Article */}
           <ListItem
             sx={{
               flexDirection: 'column',
               alignItems: 'center',
-              minWidth: { xs: '50px', sm: '80px' },
-              borderRadius: '10px',
-              border: '4px solid #f87806',
+              // minWidth: { xs: '50px', sm: '80px' },
+              // borderRadius: '10px',
+              // border: '4px solid #f87806',
               p: 1,
               boxSizing: 'border-box',
             }}
           >
-            <IconButton href="how-to-submit.html" title="Apply Online">
-              <CloudUploadIcon fontSize="sm" sx={{ color: '#f87806' }} />
+            <IconButton 
+            // href="how-to-submit.html"
+             title="Apply Online" sx={{borderRadius: '10px',
+              border: '4px solid #f87806',margin:'10px', padding:'14px'}}>
+              <CloudUploadIcon fontSize="large" sx={{ color: '#f87806' }} />
             </IconButton>
-            <Typography fontSize={{ xs: '0.4rem', sm: '0.6rem' }}>Submit Article</Typography>
+            <Typography 
+            fontSize={{ xs: '0.7rem', sm: '0.8rem' }}
+            >Submit Article</Typography>
           </ListItem>
 
           {/* Arrow with 3 Days */}
@@ -50,14 +58,15 @@ function PublicationProcess() {
             sx={{
               flexDirection: 'column',
               alignItems: 'center',
-              minWidth: '30px',
-              marginX: { xs: 1, sm: 2 },
+              // minWidth: '30px',
+              width:'50%'
+              // marginX: { xs: 1, sm: 2 },
             }}
           >
             <IconButton title="Find Courses">
-              <ArrowForwardIcon fontSize="sm" sx={{ color: 'black' }} />
+              <ArrowForwardIcon fontSize="large" sx={{ color: 'black' }} />
             </IconButton>
-            <Typography fontSize={{ xs: '0.4rem', sm: '0.6rem' }} sx={{ color: '#f87806' }}>
+            <Typography fontSize={{ xs: '0.9rem', sm: '1rem' }} sx={{ color: '#f87806' }}>
               3 Days
             </Typography>
           </ListItem>
@@ -67,17 +76,21 @@ function PublicationProcess() {
             sx={{
               flexDirection: 'column',
               alignItems: 'center',
-              minWidth: { xs: '50px', sm: '80px' },
-              borderRadius: '10px',
-              border: '4px solid #ED027B',
+              // minWidth: { xs: '50px', sm: '80px' },
+              // borderRadius: '10px',
+              // border: '4px solid #ED027B',
               p: 1,
               boxSizing: 'border-box',
             }}
           >
-            <IconButton href="reviewprocess.html" title="Find Courses">
-              <CheckSquareIcon fontSize="sm" sx={{ color: '#ED027B' }} />
+            <IconButton 
+            // href="reviewprocess.html"
+            sx={{borderRadius: '10px',
+              border: '4px solid #ED027B',margin:'10px', padding:'14px'}}
+             title="Find Courses">
+              <CheckSquareIcon fontSize="large" sx={{ color: '#ED027B' }} />
             </IconButton>
-            <Typography fontSize={{ xs: '0.4rem', sm: '0.6rem' }}>Review Process</Typography>
+            <Typography  fontSize={{ xs: '0.7rem', sm: '0.8rem' }}>Review Process</Typography>
           </ListItem>
 
           {/* Arrow */}
@@ -85,14 +98,15 @@ function PublicationProcess() {
             sx={{
               flexDirection: 'column',
               alignItems: 'center',
-              minWidth: '30px',
+              // minWidth: '30px',
+            width:'50%'
             //   marginX: { xs: 1, sm: 2 },
             }}
           >
             <IconButton title="Find Courses">
-              <ArrowForwardIcon fontSize="sm" sx={{ color: 'black' }} />
+              <ArrowForwardIcon fontSize="large" sx={{ color: 'black' }} />
             </IconButton>
-            <Typography fontSize={{ xs: '0.4rem', sm: '0.6rem' }}>&nbsp;</Typography>
+            <Typography fontSize={{ xs: '0.9rem', sm: '1rem' }}>&nbsp;</Typography>
           </ListItem>
 
           {/* Pay Fees */}
@@ -100,17 +114,18 @@ function PublicationProcess() {
             sx={{
               flexDirection: 'column',
               alignItems: 'center',
-              minWidth: { xs: '50px', sm: '80px' },
-              borderRadius: '10px',
-              border: '4px solid #00BFE7',
+              // minWidth: { xs: '50px', sm: '80px' },
+              // borderRadius: '10px',
+              // border: '4px solid #00BFE7',
               p: 1,
               boxSizing: 'border-box',
             }}
           >
-            <IconButton href="how-to-pay-fees.html" title="Schools">
-              <CreditCardIcon fontSize="sm" sx={{ color: '#00BFE7' }} />
+            <IconButton href="how-to-pay-fees.html" title="Schools" sx={{  borderRadius: '10px',
+              border: '4px solid #00BFE7',margin:'10px', padding:'14px'}}>
+              <CreditCardIcon fontSize="large" sx={{ color: '#00BFE7' }} />
             </IconButton>
-            <Typography fontSize={{ xs: '0.4rem', sm: '0.6rem' }}>Pay Fees</Typography>
+            <Typography  fontSize={{ xs: '0.7rem', sm: '0.8rem' }}>Pay Fees</Typography>
           </ListItem>
 
           {/* Arrow with 2 Days */}
@@ -118,14 +133,15 @@ function PublicationProcess() {
             sx={{
               flexDirection: 'column',
               alignItems: 'center',
-              minWidth: '30px',
+              // minWidth: '30px',
+              width:'50%'
             //   marginX: { xs: 1, sm: 2 },
             }}
           >
             <IconButton title="Find Courses">
-              <ArrowForwardIcon fontSize="sm" sx={{ color: 'black' }} />
+              <ArrowForwardIcon fontSize="large" sx={{ color: 'black' }} />
             </IconButton>
-            <Typography fontSize={{ xs: '0.4rem', sm: '0.6rem' }} sx={{ color: '#f87806' }}>
+            <Typography fontSize={{ xs: '0.9rem', sm: '1rem' }} sx={{ color: '#f87806' }}>
               2 Days
             </Typography>
           </ListItem>
@@ -135,17 +151,18 @@ function PublicationProcess() {
             sx={{
               flexDirection: 'column',
               alignItems: 'center',
-              minWidth: { xs: '50px', sm: '80px' },
-              borderRadius: '10px',
-              border: '4px solid #ED027B',
+              // minWidth: { xs: '50px', sm: '80px' },
+              // borderRadius: '10px',
+              // border: '4px solid #ED027B',
               p: 1,
               boxSizing: 'border-box',
             }}
           >
-            <IconButton href="how-to-submit.html" title="Leadership">
-              <PublishIcon fontSize="sm" sx={{ color: '#ED027B' }} />
+            <IconButton href="how-to-submit.html" title="Leadership" sx={{borderRadius: '10px',
+              border: '4px solid #ED027B',margin:'10px', padding:'14px'}} >
+              <PublishIcon fontSize="large" sx={{ color: '#ED027B' }} />
             </IconButton>
-            <Typography fontSize={{ xs: '0.4rem', sm: '0.6rem' }}>Publish Online</Typography>
+            <Typography  fontSize={{ xs: '0.7rem', sm: '0.8rem' }}>Publish Online</Typography>
           </ListItem>
 
           {/* Arrow with 3 Days */}
@@ -153,14 +170,15 @@ function PublicationProcess() {
             sx={{
               flexDirection: 'column',
               alignItems: 'center',
-              minWidth: '30px',
+              // minWidth: '30px',
+              width:'50%'
             //   marginX: { xs: 1, sm: 2 },
             }}
           >
             <IconButton title="Find Courses">
-              <ArrowForwardIcon fontSize="sm" sx={{ color: 'black' }} />
+              <ArrowForwardIcon fontSize="large" sx={{ color: 'black' }} />
             </IconButton>
-            <Typography fontSize={{ xs: '0.4rem', sm: '0.6rem' }} sx={{ color: '#f87806' }}>
+            <Typography fontSize={{ xs: '0.9rem', sm: '1rem' }} sx={{ color: '#f87806' }}>
               3 Days
             </Typography>
           </ListItem>
@@ -170,17 +188,18 @@ function PublicationProcess() {
             sx={{
               flexDirection: 'column',
               alignItems: 'center',
-              minWidth: { xs: '50px', sm: '80px' },
-              borderRadius: '10px',
-              border: '4px solid #00C1A1',
+              // minWidth: { xs: '50px', sm: '80px' },
+              // borderRadius: '10px',
+              // border: '4px solid #00C1A1',
               p: 1,
               boxSizing: 'border-box',
             }}
           >
-            <IconButton title="Scholarship">
-              <SendIcon fontSize="sm" sx={{ color: '#00C1A1' }} />
+            <IconButton title="Scholarship" sx={{borderRadius: '10px',
+              border: '4px solid #00C1A1', margin:'10px', padding:'14px'}}>
+              <SendIcon fontSize="large" sx={{ color: '#00C1A1' }} />
             </IconButton>
-            <Typography fontSize={{ xs: '0.4rem', sm: '0.6rem' }}>Dispatch Copy</Typography>
+            <Typography  fontSize={{ xs: '0.7rem', sm: '0.8rem' }}>Dispatch Copy</Typography>
           </ListItem>
         </List>
       </Box>

@@ -1,10 +1,12 @@
 import React from 'react';
 import { Container, Typography, AccordionDetails, List, ListItem, FormControl, Select, MenuItem, Button, Box, Grid } from '@mui/material';
 import SideBar from '../Components/SideBar';
+import Banner from '../Components/Banner';
 
 const ManuscriptPublication = () => {
   return (
     <>
+    <Banner title={"Manuscript-Publication"} />
 
 <Grid container justifyContent={"center"} marginX={"auto"}   sx={{overflow:"auto", gap:"10px"}} marginTop={"10px"}  height="100vh">
       {/* Left Side List */}
@@ -22,14 +24,14 @@ const ManuscriptPublication = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography variant="h6">Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Manuscript Handling Charges</Typography>
+          <Typography variant="h6"> (JIT-AI) Manuscript Handling Charges</Typography>
         </Box>
         <AccordionDetails>
           <Typography variant="body1" paragraph>
-            <strong>Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals</strong> is a self-supporting organization and does not receive funding from any institution or government. Hence, the operation of the journal is solely financed by the processing fees received from authors. The processing fees are required to meet operations expenses such as employees, salaries, internet services, electricity, etc.
+            <strong> (JIT-AI) Journals</strong> is a self-supporting organization and does not receive funding from any institution or government. Hence, the operation of the journal is solely financed by the processing fees received from authors. The processing fees are required to meet operations expenses such as employees, salaries, internet services, electricity, etc.
           </Typography>
           <Typography variant="body1" paragraph>
-            Being an Open Access Journal, Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals does not receive payment for subscriptions as the journals are freely accessible over the internet. It costs money to produce a peer-reviewed, edited, and formatted article that is ready for online publication, and to host it on a server that is freely accessible without barriers around the clock. We ask that, as a small part of the cost of doing the research, the author, institution, or funding agency pays a modest fee to help cover the actual cost of the essential final step, the publication.
+            Being an Open Access Journal,  (JIT-AI) Journals does not receive payment for subscriptions as the journals are freely accessible over the internet. It costs money to produce a peer-reviewed, edited, and formatted article that is ready for online publication, and to host it on a server that is freely accessible without barriers around the clock. We ask that, as a small part of the cost of doing the research, the author, institution, or funding agency pays a modest fee to help cover the actual cost of the essential final step, the publication.
           </Typography>
           <Typography variant="h6" align="justify" color="error">
             Manuscript Handling Charges: 3200 INR / 75 USD
