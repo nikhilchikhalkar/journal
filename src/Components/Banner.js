@@ -39,11 +39,11 @@ const Banner = ({title}) => {
           zIndex: 2,
         }}
       >
-        <Typography variant="h1" sx={{ mb: 2, fontWeight: 'bold', fontSize: '2.5rem' }}>
-          Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)
+        <Typography variant="h1" sx={{ mb: 2, fontWeight: 'bold', fontSize: '4rem' }}>
+          Journal of Innovative Tehcnologies (JIT)
         </Typography>
         <Typography variant="body1" sx={{ mb: 4, fontSize: '1.2rem' }}>
-        Create and express an inroad towards the intelligent applications for gen next...
+        Create and express an inroad towards the intelligent applications for next generations.
         </Typography>
         {/* <Button
           variant="contained"

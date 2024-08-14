@@ -6,37 +6,39 @@ const About = () => {
     <Container maxWidth="md" sx={{ padding: 4 }}>
       <article className="post">
         <Typography variant="h4" gutterBottom>
-          About  (JIT-AI)
+          About  JIT
         </Typography>
         <div className="content-block">
           {/* <Typography variant="h5" gutterBottom>
             Overview
           </Typography> */}
           <Typography variant="body1" paragraph>
-            The International Organization of Scientific Research (Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI)) is an independent private organization. The Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) provides support and services to education professionals and researchers around the world, especially those from developing countries.
+          Journal of Innovative Technologies (JIT) is an international journal that allows the scientific fraternity to involve themselves to carryout their research related to any of the engineering field or services of any sector to be operated using different AI technologies. This platform allows them to explore AI technologies extensively and make it more suitable for real-time applications.
           </Typography>
           <Typography variant="body1" paragraph>
-            Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) is an association of scientists, researchers, professors, directors, managers, and engineers from various fields, including engineering, management, pharmacy, applied science, and mathematics.
+          JIT-AI is included with wide range of scientists, researchers, professors, and engineers from various fields, including engineering, management, pharmacy, applied science, and mathematics.
           </Typography>
           <Typography variant="body1" paragraph>
-            Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) helps researchers free of cost by providing research assistance and guidance with the help of its worldwide association members. For more details, visit:{' '}
-            <Link sx={{textDecoration:'none'}} target="_blank" rel="noopener">
-              www.Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI).org
-            </Link>
+          We allow the researchers to express their real-time work to be presented without any bias and glitches that generally observed in most of the scientific research activities. This allows exploring new ideas from different researchers from across the globe.
           </Typography>
         </div>
 
         <div className="content-block">
-          <Grid container spacing={4}>
-            <Grid item xs={12} sm={6}>
-              <Typography variant="h5" gutterBottom>
+          <Grid container spacing={2}>
+            <Grid item xs={12}>
+            <Typography variant="h5" gutterBottom>
                 List of Journals
               </Typography>
+            </Grid>
+            <Grid item xs={12} sm={6}>
+              
               <List>
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link sx={{textDecoration:'none'}} color="secondary">
+                      <Link sx={{textDecoration:'none', color:"black"}} 
+                      color="secondary"
+                      >
                         Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Engineering (JIT-AI-JEN)
                       </Link>
                     }
@@ -46,8 +48,10 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link sx={{textDecoration:'none'}} color="secondary">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Computer Engineering (JIT-AI)-JCE
+                      <Link sx={{textDecoration:'none', color:"black"}}
+                       color="secondary"
+                       >
+                        Journal of Innovative Tehcnologies based on Electrical & Electronics (JIT-EE) 
                       </Link>
                     }
                   />
@@ -56,8 +60,10 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link sx={{textDecoration:'none'}} color="secondary">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Electrical and Electronics Engineering  (JIT-AI)-JEEE
+                      <Link sx={{textDecoration:'none', color:"black"}} 
+                      // color="secondary"
+                      >
+                        Journal of Innovative Tehcnologies based on Electronics and Communications (JIT-EC) 
                       </Link>
                     }
                   />
@@ -66,8 +72,10 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link sx={{textDecoration:'none'}} color="secondary">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Mechanical and Civil Engineering (JIT-AI)-JMCE
+                      <Link sx={{textDecoration:'none', color:"black"}}
+                      //  color="secondary"
+                       >
+                        Journal of Innovative Tehcnologies based on Computer Sciences (JIT-CS) 
                       </Link>
                     }
                   />
@@ -162,8 +170,10 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link   sx={{textDecoration:'none'}} color="success.main" >
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Pharmacy  (JIT-AI)-PHR
+                      <Link   sx={{textDecoration:'none', color:"black", ":hover":{ fontWeight:"bold"}}} 
+                      // color="success.main" 
+                      >
+                        Journal of Innovative Tehcnologies based on Bio-Technology  (JIT-BT)
                       </Link>
                     }
                   />
@@ -172,8 +182,10 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link sx={{textDecoration:'none'}} color="success.main">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Pharmacy and Biological Science (JIT-AI)-JPBS
+                      <Link sx={{textDecoration:'none', color:"black"}}
+                      //  color="success.main"
+                       >
+                        Journal of Innovative Tehcnologies based on Mechnical Engineering (JIT-ME)
                       </Link>
                     }
                   />
@@ -182,8 +194,10 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link sx={{textDecoration:'none'}} color="success.main">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Nursing and Health Science  (JIT-AI)-JNHS
+                      <Link sx={{textDecoration:'none', color:"black"}} 
+                      // color="success.main"
+                      >
+                        Journal of Innovative Tehcnologies based on Civil Engineering (JIT-CE) 
                       </Link>
                     }
                   />
@@ -192,8 +206,10 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link sx={{textDecoration:'none'}} color="success.main">
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Dental and Medical Sciences  (JIT-AI)-JDMS
+                      <Link sx={{textDecoration:'none', color:"black"}}
+                      //  color="success.main"
+                       >
+                        Journal of Innovative Tehcnologies based on Internet of Things (JIT-IoT)
                       </Link>
                     }
                   />

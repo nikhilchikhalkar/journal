@@ -3,17 +3,18 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from "../assets/logo.png"
 
 function Header() {
   return (
     <>
   <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">JIT-AI Journals</Navbar.Brand>
+        <Navbar.Brand href="/"><img src={logo} alt='loto' style={{width:"60px", height:'60px', marginRight:'10px', borderRadius:'50px'}} />JIT Journals</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link href="/">Home</Nav.Link>
+          <Nav className="ms-auto" style={{marginRight:'10px'}}>
+            <Nav.Link href="/" >Home</Nav.Link>
             <Nav.Link href="/cfp">Call For Paper</Nav.Link>
             <NavDropdown title="JIT-AI Journals" id="basic-nav-dropdown">
               <NavDropdown.Item href="/why-choose">Why Choose JIT-AI Journals</NavDropdown.Item>
@@ -54,7 +55,8 @@ function Header() {
                 Publishing Standards
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/contact-us">Contact us</Nav.Link>
+            <Nav.Link href="/registration">Registration</Nav.Link>
+            <Nav.Link href="/login">Login</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -17,6 +17,8 @@ import Cfp from './Pages/Cfp';
 import WhyChoose from './Pages/WhyChoose';
 import Contact from './Pages/Contact';
 import PublishingStandards from './Pages/PublishingStandards';
+import Registration from './Pages/Registration';
+import Login from './Pages/Login';
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
         <Route path='/copyright-policy' element={<CopyrightPolicy/>} />
         <Route path='/citation-reports' element={<CitationReports/>} />
         <Route path='/cfp' element={<Cfp/>} />
+        <Route path='/login' element={<Login/>} />
+        <Route path='/registration' element={<Registration/>} />
         <Route path='/PublishingStandards' element={<PublishingStandards/>} />
         <Route path='/contact-us' element={<Contact/>} />
       </Routes>
