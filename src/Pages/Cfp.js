@@ -100,7 +100,7 @@ const Cfp = () => {
               Important Dates for Upcoming Issues:
             </Typography>
             <TableContainer component={Paper}>
-              <Table sx={{ minWidth: 350 }} aria-label="important dates">  // minwidth deside mobile version width
+              <Table sx={{ minWidth: 350 }} aria-label="important dates">
                 <TableHead>
                   <TableRow>
                     <TableCell align="center" colSpan={2}>
