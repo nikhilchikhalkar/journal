@@ -39,7 +39,7 @@ const Banner = ({title}) => {
           zIndex: 2,
         }}
       >
-        <Typography variant="h1" sx={{ mb: 2, fontWeight: 'bold', fontSize: '4rem' }}>
+        <Typography variant="h1" sx={{ mb: 2, fontWeight: 'bold', fontSize: '3rem', paddingX:'15px' }}>
           Journal of Innovative Tehcnologies (JIT)
         </Typography>
         <Typography variant="body1" sx={{ mb: 4, fontSize: '1.2rem' }}>
@@ -57,7 +57,7 @@ const Banner = ({title}) => {
         >
           Find Journals
         </Button> */}
-        <Typography variant='h4' sx={{display:"flex", justifyContent:"start", marginX:"auto", paddingLeft:"50px",fontWeight:"bold"}}>
+        <Typography variant='h4'  sx={{display:"flex", justifyContent:"start", marginX:"auto", paddingLeft:"30px",fontWeight:"bold"}}>
           {title} 
         </Typography>
       </Box>
