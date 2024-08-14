@@ -1,5 +1,13 @@
-import React from 'react';
-import { Container, Typography, Grid, List, ListItem, ListItemText, Link } from '@mui/material';
+import React from "react";
+import {
+  Container,
+  Typography,
+  Grid,
+  List,
+  ListItem,
+  ListItemText,
+  Link,
+} from "@mui/material";
 
 const About = () => {
   return (
@@ -13,33 +21,45 @@ const About = () => {
             Overview
           </Typography> */}
           <Typography variant="body1" paragraph>
-          Journal of Innovative Technologies (JIT) is an international journal that allows the scientific fraternity to involve themselves to carryout their research related to any of the engineering field or services of any sector to be operated using different AI technologies. This platform allows them to explore AI technologies extensively and make it more suitable for real-time applications.
+            Journal of Innovative Technologies (JIT) is an international journal
+            that allows the scientific fraternity to involve themselves to
+            carryout their research related to any of the engineering field or
+            services of any sector to be operated using different AI
+            technologies. This platform allows them to explore AI technologies
+            extensively and make it more suitable for real-time applications.
           </Typography>
           <Typography variant="body1" paragraph>
-          JIT-AI is included with wide range of scientists, researchers, professors, and engineers from various fields, including engineering, management, pharmacy, applied science, and mathematics.
+            JIT-AI is included with wide range of scientists, researchers,
+            professors, and engineers from various fields, including
+            engineering, management, pharmacy, applied science, and mathematics.
           </Typography>
           <Typography variant="body1" paragraph>
-          We allow the researchers to express their real-time work to be presented without any bias and glitches that generally observed in most of the scientific research activities. This allows exploring new ideas from different researchers from across the globe.
+            We allow the researchers to express their real-time work to be
+            presented without any bias and glitches that generally observed in
+            most of the scientific research activities. This allows exploring
+            new ideas from different researchers from across the globe.
           </Typography>
         </div>
 
         <div className="content-block">
           <Grid container spacing={2}>
             <Grid item xs={12}>
-            <Typography variant="h5" gutterBottom>
+              <Typography variant="h5" gutterBottom>
                 List of Journals
               </Typography>
             </Grid>
             <Grid item xs={12} sm={6}>
-              
               <List>
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link sx={{textDecoration:'none', color:"black"}} 
-                      color="secondary"
+                      <Link
+                        sx={{ textDecoration: "none", color: "black" }}
+                        color="secondary"
                       >
-                        Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journal of Engineering (JIT-AI-JEN)
+                        Journal of Innovative Tehcnologies based on Artificial
+                        Intelligence (JIT-AI) Journal of Engineering
+                        (JIT-AI-JEN)
                       </Link>
                     }
                   />
@@ -48,22 +68,12 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link sx={{textDecoration:'none', color:"black"}}
-                       color="secondary"
-                       >
-                        Journal of Innovative Tehcnologies based on Electrical & Electronics (JIT-EE) 
-                      </Link>
-                    }
-                  />
-                </ListItem>
-
-                <ListItem>
-                  <ListItemText
-                    primary={
-                      <Link sx={{textDecoration:'none', color:"black"}} 
-                      // color="secondary"
+                      <Link
+                        sx={{ textDecoration: "none", color: "black" }}
+                        color="secondary"
                       >
-                        Journal of Innovative Tehcnologies based on Electronics and Communications (JIT-EC) 
+                        Journal of Innovative Tehcnologies based on Electrical &
+                        Electronics (JIT-EE)
                       </Link>
                     }
                   />
@@ -72,15 +82,31 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link sx={{textDecoration:'none', color:"black"}}
-                      //  color="secondary"
-                       >
-                        Journal of Innovative Tehcnologies based on Computer Sciences (JIT-CS) 
+                      <Link
+                        sx={{ textDecoration: "none", color: "black" }}
+                        // color="secondary"
+                      >
+                        Journal of Innovative Tehcnologies based on Electronics
+                        and Communications (JIT-EC)
                       </Link>
                     }
                   />
                 </ListItem>
-{/* 
+
+                <ListItem>
+                  <ListItemText
+                    primary={
+                      <Link
+                        sx={{ textDecoration: "none", color: "black" }}
+                        //  color="secondary"
+                      >
+                        Journal of Innovative Tehcnologies based on Computer
+                        Sciences (JIT-CS)
+                      </Link>
+                    }
+                  />
+                </ListItem>
+                {/* 
                 <ListItem>
                   <ListItemText
                     primary={
@@ -160,20 +186,20 @@ const About = () => {
                     }
                   />
                 </ListItem> */}
-
               </List>
             </Grid>
 
             <Grid item xs={12} sm={6}>
               <List>
-
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link   sx={{textDecoration:'none', color:"black", ":hover":{ fontWeight:"bold"}}} 
-                      // color="success.main" 
+                      <Link
+                        sx={{ textDecoration: "none", color: "black" }}
+                        // color="success.main"
                       >
-                        Journal of Innovative Tehcnologies based on Bio-Technology  (JIT-BT)
+                        Journal of Innovative Tehcnologies based on
+                        Bio-Technology  (JIT-BT)
                       </Link>
                     }
                   />
@@ -182,22 +208,12 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link sx={{textDecoration:'none', color:"black"}}
-                      //  color="success.main"
-                       >
-                        Journal of Innovative Tehcnologies based on Mechnical Engineering (JIT-ME)
-                      </Link>
-                    }
-                  />
-                </ListItem>
-
-                <ListItem>
-                  <ListItemText
-                    primary={
-                      <Link sx={{textDecoration:'none', color:"black"}} 
-                      // color="success.main"
+                      <Link
+                        sx={{ textDecoration: "none", color: "black" }}
+                        //  color="success.main"
                       >
-                        Journal of Innovative Tehcnologies based on Civil Engineering (JIT-CE) 
+                        Journal of Innovative Tehcnologies based on Mechnical
+                        Engineering (JIT-ME)
                       </Link>
                     }
                   />
@@ -206,15 +222,31 @@ const About = () => {
                 <ListItem>
                   <ListItemText
                     primary={
-                      <Link sx={{textDecoration:'none', color:"black"}}
-                      //  color="success.main"
-                       >
-                        Journal of Innovative Tehcnologies based on Internet of Things (JIT-IoT)
+                      <Link
+                        sx={{ textDecoration: "none", color: "black" }}
+                        // color="success.main"
+                      >
+                        Journal of Innovative Tehcnologies based on Civil
+                        Engineering (JIT-CE)
                       </Link>
                     }
                   />
                 </ListItem>
-{/* 
+
+                <ListItem>
+                  <ListItemText
+                    primary={
+                      <Link
+                        sx={{ textDecoration: "none", color: "black" }}
+                        //  color="success.main"
+                      >
+                        Journal of Innovative Tehcnologies based on Internet of
+                        Things (JIT-IoT)
+                      </Link>
+                    }
+                  />
+                </ListItem>
+                {/* 
                 <ListItem>
                   <ListItemText
                     primary={
@@ -294,7 +326,6 @@ const About = () => {
                     }
                   />
                 </ListItem> */}
-                
               </List>
             </Grid>
           </Grid>
