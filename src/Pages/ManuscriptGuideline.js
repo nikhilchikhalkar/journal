@@ -26,10 +26,10 @@ const ManuscriptPreparation = () => {
 
       <Box sx={{ marginY: '20px' }}>
         <Typography variant="body1" align="justify">
-          Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals is a self-supporting organization and does not receive funding from any institution/government. 
+          Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT) Journals is a self-supporting organization and does not receive funding from any institution/government. 
           Hence, the operation of the journal is solely financed by the processing fees received from authors. The processing 
           fees are required to meet operational expenses such as employees, salaries, internet services, electricity, etc. 
-          Being an Open Access Journal, Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT-AI) Journals does not receive payment for subscriptions as the journals are freely 
+          Being an Open Access Journal, Journal of Innovative Tehcnologies based on Artificial Intelligence (JIT) Journals does not receive payment for subscriptions as the journals are freely 
           accessible over the internet. It costs money to produce a peer-reviewed, edited, and formatted article that is ready 
           for online publication, and to host it on a server that is freely accessible without barriers around the clock. We ask 
           that, as a small part of the cost of doing the research, the author, institution, or funding agency pays a modest fee to 

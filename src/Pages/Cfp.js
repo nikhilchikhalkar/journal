@@ -82,14 +82,14 @@ const Cfp = () => {
               sx={{ fontWeight: "bold" }}
             >
               Journal of Innovative Tehcnologies based on Artificial
-              Intelligence (JIT-AI) Journals
+              Intelligence JIT Journals
             </Typography>
             <Typography variant="body1" paragraph>
               Globally welcomes research scholars &amp; scientists from
               different domains in its realm of Open Access Publication. Through
               the integration of scientific researchers &amp; industrial
               practitioners, each Call for Papers by Journal of Innovative
-              Tehcnologies based on Artificial Intelligence (JIT-AI) Journals
+              Tehcnologies based on Artificial Intelligence (JIT) Journals
               becomes another success story of its contribution towards the
               prosperity of scientific research, social infrastructure &amp;
               industrial advancement.

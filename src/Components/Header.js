@@ -16,8 +16,8 @@ function Header() {
           <Nav className="ms-auto" style={{marginRight:'10px'}}>
             <Nav.Link href="/" >Home</Nav.Link>
             <Nav.Link href="/cfp">Call For Paper</Nav.Link>
-            <NavDropdown title="JIT-AI Journals" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/why-choose">Why Choose JIT-AI Journals</NavDropdown.Item>
+            <NavDropdown title="JIT Journals" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/why-choose">Why Choose JIT Journals</NavDropdown.Item>
               {/* <NavDropdown.Item href="#action/3.2">
                 Call For Paper
               </NavDropdown.Item> */}
@@ -55,8 +55,8 @@ function Header() {
                 Publishing Standards
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/registration">Registration</Nav.Link>
             <Nav.Link href="/login">Login</Nav.Link>
+            <Nav.Link href="/registration">Register</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

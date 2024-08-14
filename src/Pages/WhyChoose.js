@@ -47,37 +47,37 @@ function WhyChoose() {
       <CardContent>
         <Typography variant="body1" paragraph>
           <strong>1. Top Indexing:&nbsp;</strong>
-           (JIT-AI) Journals index all papers in world top indexing like: NASA ads, CrossRef, ANED (American National Engineering Database) etc, CAS (Chemical Abstract Service), Google Scholar etc.
+           (JIT) Journals index all papers in world top indexing like: NASA ads, CrossRef, ANED (American National Engineering Database) etc, CAS (Chemical Abstract Service), Google Scholar etc.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>2. DOI:&nbsp;</strong>
-           (JIT-AI) Journals allot DOI (Digital Object Identifier) to each published article.
+           (JIT) Journals allot DOI (Digital Object Identifier) to each published article.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>3. Blind Peer Review Process:&nbsp;</strong>
-          The main aim of blind peer review process is to maintain the quality of published articles under  (JIT-AI) Journals.
+          The main aim of blind peer review process is to maintain the quality of published articles under  (JIT) Journals.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>4. Rapid Publication Process:&nbsp;</strong>
-          The publication process generally takes only 20-25 days for an article publication.  (JIT-AI) Journals dispatch hard copy of Journal within 7 days of online publication by speed post.
+          The publication process generally takes only 20-25 days for an article publication.  (JIT) Journals dispatch hard copy of Journal within 7 days of online publication by speed post.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>5. Subject Specific Journals:</strong>&nbsp;
-          There are different subject specific Journals of different branches of globally accepted technologies under the umbrella of  (JIT-AI) Journals.
+          There are different subject specific Journals of different branches of globally accepted technologies under the umbrella of  (JIT) Journals.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>6. Online and Print publication both:&nbsp;</strong>
-           (JIT-AI) Journals publish paper online and print version both.
+           (JIT) Journals publish paper online and print version both.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>7. Certificates:</strong>&nbsp;
-           (JIT-AI) Journals provide hard copy of Certificates to individual author free of Cost.
+           (JIT) Journals provide hard copy of Certificates to individual author free of Cost.
         </Typography>
         <Typography variant="body1" paragraph>
           <strong>8. Quick Reply of any query:</strong>&nbsp;
           Anybody can get answers of their queries within 24 hours by mailing at{' '}
           <Link href="mailto:support@ (JIT-AI)mail.org" style={{ color: '#007bff' }}>
-            support@ (JIT-AI)mail.org
+            support@ (JIT)mail.org
           </Link>
         </Typography>
       </CardContent>

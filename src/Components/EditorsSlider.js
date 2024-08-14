@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import prof1 from "../assets/prof1.jpg"
 import prof2 from "../assets/prof2.jpg"
 import prof3 from "../assets/prof3.jpg"
-import prof4 from "../assets/prof4.jpg"
+import prof4 from "../assets/prof4-removebg-preview.jpg"
 import prof5 from "../assets/prof5.jpg"
 
 const data = [
@@ -52,7 +52,7 @@ const EditorsSlider = () => {
 
   return (
     <Box>
-        <Typography sx={{width:"80%", marginX:"auto", fontWeight:"bold", fontSize:"2rem"}} >JIT-AI Global Editors :-</Typography>
+        <Typography sx={{width:"80%", marginX:"auto", fontWeight:"bold", fontSize:"2rem"}} >JIT Global Editors :-</Typography>
 <Box sx={{ py: 4, width:"80%", display:"flex", position:"relative", justifyContent:"center", marginX:"auto"}}>
       <Container maxWidth={"lg"}>
         <Slider {...settings} ref={sliderRef}>

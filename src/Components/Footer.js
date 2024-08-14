@@ -18,7 +18,7 @@ const Footer = () => {
               Important Dates
             </Link>
             <Link href="/why-choose" color="inherit" variant="body2" display="block" sx={{ mt: 1, textDecoration:'none' }}>
-              Why Choose JIT-AI Journal
+              Why Choose JIT Journal
             </Link>
             <Link href="/copyright-policy" color="inherit" variant="body2" display="block" sx={{ mt: 1, textDecoration:'none' }}>
               Copyright Policy

@@ -67,7 +67,7 @@ function PublicationProcess() {
               <ArrowForwardIcon fontSize="large" sx={{ color: 'black' }} />
             </IconButton>
             <Typography fontSize={{ xs: '0.9rem', sm: '1rem' }} sx={{ color: '#f87806' }}>
-              3 Days
+            2 - 3 months
             </Typography>
           </ListItem>
 
@@ -142,7 +142,7 @@ function PublicationProcess() {
               <ArrowForwardIcon fontSize="large" sx={{ color: 'black' }} />
             </IconButton>
             <Typography fontSize={{ xs: '0.9rem', sm: '1rem' }} sx={{ color: '#f87806' }}>
-              2 Days
+            2 - 3 months
             </Typography>
           </ListItem>
 
@@ -179,7 +179,7 @@ function PublicationProcess() {
               <ArrowForwardIcon fontSize="large" sx={{ color: 'black' }} />
             </IconButton>
             <Typography fontSize={{ xs: '0.9rem', sm: '1rem' }} sx={{ color: '#f87806' }}>
-              3 Days
+              2 - 3 months
             </Typography>
           </ListItem>
 

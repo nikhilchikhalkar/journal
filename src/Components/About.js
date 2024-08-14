@@ -7,7 +7,10 @@ import {
   ListItem,
   ListItemText,
   Link,
+  ListItemIcon,
 } from "@mui/material";
+import CircleIcon from '@mui/icons-material/Circle';
+
 
 const About = () => {
   return (
@@ -51,6 +54,11 @@ const About = () => {
             <Grid item xs={12} sm={6}>
               <List>
                 <ListItem>
+
+                <ListItemIcon sx={{ color:'black', marginBottom:'25px'}}>
+                <CircleIcon fontSize="10px" />
+                </ListItemIcon>
+
                   <ListItemText
                     primary={
                       <Link
@@ -66,6 +74,11 @@ const About = () => {
                 </ListItem>
 
                 <ListItem>
+
+                <ListItemIcon sx={{ color:'black'}}>
+                <CircleIcon fontSize="10px" />
+                </ListItemIcon>
+
                   <ListItemText
                     primary={
                       <Link
@@ -80,6 +93,11 @@ const About = () => {
                 </ListItem>
 
                 <ListItem>
+
+                <ListItemIcon sx={{ color:'black'}}>
+                <CircleIcon fontSize="10px" />
+                </ListItemIcon>
+
                   <ListItemText
                     primary={
                       <Link
@@ -94,6 +112,11 @@ const About = () => {
                 </ListItem>
 
                 <ListItem>
+
+                <ListItemIcon sx={{ color:'black'}}>
+                <CircleIcon fontSize="10px" />
+                </ListItemIcon>
+
                   <ListItemText
                     primary={
                       <Link
@@ -192,6 +215,9 @@ const About = () => {
             <Grid item xs={12} sm={6}>
               <List>
                 <ListItem>
+                <ListItemIcon sx={{ color:'black'}}>
+                <CircleIcon fontSize="10px" />
+                </ListItemIcon>
                   <ListItemText
                     primary={
                       <Link
@@ -205,7 +231,11 @@ const About = () => {
                   />
                 </ListItem>
 
-                <ListItem>
+                <ListItem sx={{marginTop:'22px'}}>
+
+                <ListItemIcon sx={{ color:'black'}}>
+                <CircleIcon fontSize="10px" />
+                </ListItemIcon>
                   <ListItemText
                     primary={
                       <Link
@@ -220,6 +250,11 @@ const About = () => {
                 </ListItem>
 
                 <ListItem>
+
+                <ListItemIcon sx={{ color:'black'}}>
+                <CircleIcon fontSize="10px" />
+                </ListItemIcon>
+
                   <ListItemText
                     primary={
                       <Link
@@ -234,6 +269,11 @@ const About = () => {
                 </ListItem>
 
                 <ListItem>
+
+                <ListItemIcon sx={{ color:'black'}}>
+                <CircleIcon fontSize="10px" />
+                </ListItemIcon>
+
                   <ListItemText
                     primary={
                       <Link

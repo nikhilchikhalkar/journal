@@ -19,6 +19,8 @@ import Contact from './Pages/Contact';
 import PublishingStandards from './Pages/PublishingStandards';
 import Registration from './Pages/Registration';
 import Login from './Pages/Login';
+import Article from './Pages/Article';
+import AuthorProfile from './Pages/AuthorProfile';
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
         <Route path='/copyright-policy' element={<CopyrightPolicy/>} />
         <Route path='/citation-reports' element={<CitationReports/>} />
         <Route path='/cfp' element={<Cfp/>} />
+        <Route path='/autherprofile' element={<AuthorProfile/>} />
+        <Route path='/article' element={<Article/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/registration' element={<Registration/>} />
         <Route path='/PublishingStandards' element={<PublishingStandards/>} />

@@ -28,7 +28,7 @@ const FAQs = () => {
     <Grid item xs={12} sm={8} overflow={"hidde"} flexGrow={1} p={2} borderRadius={"10px"} bgcolor="#f5f5f5" marginx={"auto"} >
     <Box sx={{ padding: '20px', backgroundColor: '#f5f5f5', borderRadius: '8px' }}>
       <Typography variant="h6" gutterBottom>
-        FAQs About  (JIT-AI) Journals
+        FAQs About  (JIT) Journals
       </Typography>
       <Divider sx={{ marginBottom: '20px' }} />
 
@@ -36,44 +36,44 @@ const FAQs = () => {
         <Grid item xs={12}>
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-header">
-              <Typography> (JIT-AI) Journals are International Journal or not?</Typography>
+              <Typography> (JIT) Journals are International Journal or not?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                 (JIT-AI) Journals are International Journals. You can check the editorial board and published papers.  (JIT-AI) Journals are accepted globally.
+                 (JIT) Journals are International Journals. You can check the editorial board and published papers.  (JIT) Journals are accepted globally.
               </Typography>
             </AccordionDetails>
           </Accordion>
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel2a-content" id="panel2a-header">
-              <Typography>What is the review type of  (JIT-AI) Journals?</Typography>
+              <Typography>What is the review type of  (JIT) Journals?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                 (JIT-AI) Journals follow a blind peer review process for selecting only the best quality papers. It accepts only 10-15% quality papers.
+                 (JIT) Journals follow a blind peer review process for selecting only the best quality papers. It accepts only 10-15% quality papers.
               </Typography>
             </AccordionDetails>
           </Accordion>
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel3a-content" id="panel3a-header">
-              <Typography>Whether  (JIT-AI) Journals are indexed Journals or not?</Typography>
+              <Typography>Whether  (JIT) Journals are indexed Journals or not?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                 (JIT-AI) Journals are widely indexed. Published papers are indexed in top indexes like NASA ADS, CrossRef, ArXiv, Google Scholar, Cabell's Directory, EBSCO Host, Index Copernicus, ANED, Ulrich Web, and many more.
+                 (JIT) Journals are widely indexed. Published papers are indexed in top indexes like NASA ADS, CrossRef, ArXiv, Google Scholar, Cabell's Directory, EBSCO Host, Index Copernicus, ANED, Ulrich Web, and many more.
               </Typography>
             </AccordionDetails>
           </Accordion>
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel4a-content" id="panel4a-header">
-              <Typography> (JIT-AI) Journals are online Journals or Print Journals?</Typography>
+              <Typography> (JIT) Journals are online Journals or Print Journals?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                 (JIT-AI) Journals publish papers both online and in hard copy (print version).
+                 (JIT) Journals publish papers both online and in hard copy (print version).
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -84,7 +84,7 @@ const FAQs = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                 (JIT-AI) Journals provide hard copies of certificates to all authors after the publication of the paper.
+                 (JIT) Journals provide hard copies of certificates to all authors after the publication of the paper.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -95,29 +95,29 @@ const FAQs = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                 (JIT-AI) Journals dispatch hard copies of Journals and certificates within 7 days of online publication. After that, you can track your post using a tracking ID.
+                 (JIT) Journals dispatch hard copies of Journals and certificates within 7 days of online publication. After that, you can track your post using a tracking ID.
               </Typography>
             </AccordionDetails>
           </Accordion>
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel7a-content" id="panel7a-header">
-              <Typography>What is the additional feature with  (JIT-AI) Journals?</Typography>
+              <Typography>What is the additional feature with  (JIT) Journals?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                 (JIT-AI) Journals provide DOI (Digital Object Identifier) to each article, making your paper acceptable globally.
+                 (JIT) Journals provide DOI (Digital Object Identifier) to each article, making your paper acceptable globally.
               </Typography>
             </AccordionDetails>
           </Accordion>
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel8a-content" id="panel8a-header">
-              <Typography>What is the Impact Factor of  (JIT-AI) Journals?</Typography>
+              <Typography>What is the Impact Factor of  (JIT) Journals?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                All  (JIT-AI) Journals have a high Impact Factor. You can check it through the following link: <a href="http:// (JIT-AI)journals.org/impact-factor.html" target="_blank" rel="noopener noreferrer">Impact Factor</a>
+                All  (JIT) Journals have a high Impact Factor. You can check it through the following link: <a href="http:// (JIT)journals.org/impact-factor.html" target="_blank" rel="noopener noreferrer">Impact Factor</a>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -128,7 +128,7 @@ const FAQs = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                You can check all  (JIT-AI) Journals statistics through the following link: <a href="http://www. (JIT-AI)journals.org/stat.html" target="_blank" rel="noopener noreferrer">Journal Statistics</a>
+                You can check all  (JIT) Journals statistics through the following link: <a href="http://www. (JIT)journals.org/stat.html" target="_blank" rel="noopener noreferrer">Journal Statistics</a>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -139,7 +139,7 @@ const FAQs = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography color="error">
-                Authors can check citation reports through the following link: <a href="http://www. (JIT-AI)journals.org/citation.html" target="_blank" rel="noopener noreferrer">Citation Reports</a>
+                Authors can check citation reports through the following link: <a href="http://www. (JIT)journals.org/citation.html" target="_blank" rel="noopener noreferrer">Citation Reports</a>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -154,7 +154,7 @@ const FAQs = () => {
           target="_blank"
           sx={{ padding: '10px 20px' }}
         >
-            <Link target='_Blank' to={'https://www. (JIT-AI)journals.org/doc/FAQs.pdf'}style={{color:"white", textDecoration:"none"}} >
+            <Link target='_Blank' to={'https://www. (JIT)journals.org/doc/FAQs.pdf'}style={{color:"white", textDecoration:"none"}} >
           FAQs About Paper Publication
             </Link>
         </Button>
