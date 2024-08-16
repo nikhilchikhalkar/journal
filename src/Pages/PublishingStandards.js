@@ -6,10 +6,12 @@ import {
   Box,
 } from '@mui/material';
 import SideBar from '../Components/SideBar';
+// import Banner from '../Components/Banner';
 
 const PublishingStandards = () => {
   return (
     <>
+    {/* <Banner/> */}
 
 <Grid container justifyContent={"center"} marginX={"auto"}   sx={{overflow:"auto", gap:"10px"}} marginTop={"10px"}  height="100vh">
       {/* Left Side List */}

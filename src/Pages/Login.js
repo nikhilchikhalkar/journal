@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Container, TextField, Button, Grid, Typography } from '@mui/material';
+// import Banner from '../Components/Banner';
 
 const Login = () => {
   const [loginData, setLoginData] = useState({
@@ -28,8 +29,14 @@ const Login = () => {
   };
 
   return (
-    <Container maxWidth="sm">
-      <Typography variant="h4" gutterBottom>Login</Typography>
+    <>
+    {/* <Banner/> */}
+    <Container maxWidth="sm"
+    //  style={{paddingTop:'20px'}}
+      >
+      <Typography variant="h4" gutterBottom
+      sx={{ display: "flex", justifyContent: "center", paddingTop:'20px' }}
+      >Login</Typography>
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <TextField
@@ -89,7 +96,8 @@ const Login = () => {
           </Button>
         </Grid>
       </Grid>
-    </Container>
+    </Container> 
+    </>
   );
 };
 

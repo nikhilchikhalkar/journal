@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Typography, AccordionSummary, AccordionDetails, Link, Grid, Box } from '@mui/material';
-import Banner from '../Components/Banner';
+// import Banner from '../Components/Banner';
 
 
 
@@ -34,7 +34,7 @@ const HowToSubmit = () => {
       ];
   return (
     <>
-    <Banner title="How-To-Submit"/>
+    {/* <Banner title="How-To-Submit"/> */}
    <Container maxWidth="md" sx={{ padding: 4 }}>
       <Box>
         <AccordionSummary

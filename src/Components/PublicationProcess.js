@@ -11,7 +11,7 @@ function PublicationProcess() {
   return (
     <Box id="myfeature-list" width={"100%"} marginX={"auto"} p={1}>
       <Typography variant="h6" textAlign="left" fontSize={{ xs: 16, sm: 18, md: 20 }} gutterBottom>
-        Publication Process:
+        Publication Process
       </Typography>
       <Box className="scrolling" overflow="auto">
         <List

@@ -16,7 +16,7 @@ const Banner = ({title}) => {
         // backgroundImage: 'url(https://plus.unsplash.com/premium_photo-1661411311489-46be8dfc82bd?q=80&w=1830&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)', // Replace with your image URL
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        minHeight: '300px',
+        minHeight: '450px',
         color: '#fff',
         position: 'relative',
         overflow: 'hidden',
@@ -57,9 +57,9 @@ const Banner = ({title}) => {
         >
           Find Journals
         </Button> */}
-        <Typography variant='h4'  sx={{display:"flex", justifyContent:"start", marginX:"auto", paddingLeft:"30px",fontWeight:"bold"}}>
+        {/* <Typography variant='h4'  sx={{display:"flex", justifyContent:"start", marginX:"auto", paddingLeft:"30px",fontWeight:"bold"}}>
           {title} 
-        </Typography>
+        </Typography> */}
       </Box>
     </Box>
   );

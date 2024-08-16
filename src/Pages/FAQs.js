@@ -12,12 +12,12 @@ import {
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import SideBar from '../Components/SideBar';
 import { Link } from 'react-router-dom';
-import Banner from '../Components/Banner';
+// import Banner from '../Components/Banner';
 
 const FAQs = () => {
   return (
 <>
-<Banner title="FAQ"/>
+{/* <Banner title="FAQ"/> */}
     <Grid container justifyContent={"center"} marginX={"auto"}   sx={{overflow:"auto", gap:"10px"}} marginTop={"10px"}  height="100vh">
     {/* Left Side List */}
     <Grid item xs={12} sm={2} marginBottom={"auto"}  bgcolor="#00C1A1" color={'white'} borderRadius={"10px"} p={2}>

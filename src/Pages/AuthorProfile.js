@@ -1,31 +1,41 @@
 import React from 'react';
-import { Grid, Typography, Box, Link, Avatar, Button, Container } from '@mui/material';
+import { Grid, Typography, Box, Link, Avatar, Container } from '@mui/material';
 import HelpIcon from '@mui/icons-material/Help';
 import prof1 from "../assets/prof1.jpg"
 
 const AuthorProfile = () => {
   return (
-    <Container>
+    <Container sx={{backgroundColor:'#f5f5f5'}} >
         <Grid container spacing={2} p={2}>
       {/* Author Image and Follow Button */}
       <Grid item xs={12} sm={4} md={3}>
-        <Avatar 
-          alt="Baiqing Sun"
-          src={prof1}
-          sx={{ width: 128, height: 128, marginBottom: 2 }}
-        />
+      <Avatar 
+  alt="Baiqing Sun"
+  src={prof1}
+  sx={{
+    width: 200,
+    height: "auto",  // Maintain aspect ratio
+    borderRadius: "14%",
+    marginX: "auto",
+    marginBottom: 2,
+    objectFit: "cover",  // Ensure the image fits without distortion
+  }}
+/>
+
         {/* <Button variant="outlined" fullWidth>Follow</Button> */}
       </Grid>
 
       {/* Author Bio and Details */}
       <Grid item xs={12} sm={8} md={9}>
-        <Typography variant="h4">Baiqing Sun</Typography>
-        <Box display="flex" alignItems="center">
-          <Link href="https://orcid.org/0000-0003-3384-5029" target="_blank">
+        <Typography variant="h4">Baiqing Sun <HelpIcon sx={{ marginLeft: 1, cursor: 'pointer' }} /> </Typography>
+
+        {/* <Box display="flex" alignItems="center">
+          <Link href="" target="_blank">
             <i className="icon icon-orcid" />
           </Link>
           <HelpIcon sx={{ marginLeft: 1, cursor: 'pointer' }} />
-        </Box>
+        </Box> */}
+
         <Box mt={2}>
           <Typography variant="h6">Affiliation</Typography>
           <Typography variant="body1">School of Management</Typography>

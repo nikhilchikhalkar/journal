@@ -10,6 +10,7 @@ import {
   Checkbox,
   FormControlLabel,
 } from "@mui/material";
+// import Banner from "../Components/Banner";
 
 const Registration = () => {
   // State to hold all the form data and email validation
@@ -60,10 +61,12 @@ const Registration = () => {
   };
 
   return (
+    <>
+   {/* <Banner/> */}
     <Container maxWidth="md">
       <Typography
         variant="h4"
-        sx={{ display: "flex", justifyContent: "center" }}
+        sx={{ display: "flex", justifyContent: "center", paddingTop:'20px' }}
         gutterBottom
       >
         Registration Page
@@ -74,7 +77,7 @@ const Registration = () => {
         Basic Information
       </Typography>
       <Grid container spacing={2}>
-        <Grid item xs={12} sm={4}>
+        <Grid item xs={3} sm={2}>
           <TextField
             select
             label="Initials"
@@ -87,9 +90,10 @@ const Registration = () => {
             <MenuItem value="Mr.">Mr.</MenuItem>
             <MenuItem value="Ms.">Ms.</MenuItem>
             <MenuItem value="Dr.">Dr.</MenuItem>
+            <MenuItem value="Dr.">Prof.</MenuItem>
           </TextField>
         </Grid>
-        <Grid item xs={12} sm={4}>
+        <Grid item xs={9} sm={5}>
           <TextField
             label="First Name"
             name="firstName"
@@ -99,7 +103,7 @@ const Registration = () => {
             margin="normal"
           />
         </Grid>
-        <Grid item xs={12} sm={4}>
+        <Grid item xs={12} sm={5}>
           <TextField
             label="Middle Name"
             name="middleName"
@@ -109,7 +113,7 @@ const Registration = () => {
             margin="normal"
           />
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={5}>
           <TextField
             label="Surname"
             name="surname"
@@ -119,8 +123,8 @@ const Registration = () => {
             margin="normal"
           />
         </Grid>
-        <Grid item xs={12} sm={6} container alignItems="center" spacing={1}>
-          <Grid item xs={8}>
+        <Grid item xs={12} sm={7} container alignItems="center" spacing={1}>
+          <Grid item xs={9}>
             <TextField
               label="Email ID"
               name="email"
@@ -131,7 +135,7 @@ const Registration = () => {
               margin="normal"
             />
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={3}>
             <Button
               variant="contained"
               color="primary"
@@ -155,7 +159,8 @@ const Registration = () => {
             />
           </Grid>
         )}
-        <Grid item xs={12} sm={3}>
+        
+        <Grid item xs={3} sm={2}>
           <TextField
             select
             label="Country Code"
@@ -299,8 +304,9 @@ const Registration = () => {
             {/* Add more country codes as needed */}
           </TextField>
         </Grid>
-        <Grid item xs={12} sm={9}>
+        <Grid item xs={9} sm={10}>
           <TextField
+          type="tel"
             label="Mobile Number"
             name="mobileNumber"
             value={formData.mobileNumber}
@@ -316,6 +322,12 @@ const Registration = () => {
             }}
           />
         </Grid>
+       
+
+
+       
+
+
         <Grid item xs={12} sm={6}>
           <TextField
             label="User ID"
@@ -468,7 +480,8 @@ const Registration = () => {
       >
         Submit
       </Button>
-    </Container>
+    </Container> 
+    </>
   );
 };
 

@@ -21,12 +21,15 @@ import Registration from './Pages/Registration';
 import Login from './Pages/Login';
 import Article from './Pages/Article';
 import AuthorProfile from './Pages/AuthorProfile';
+import Banner from './Components/Banner';
+// import NotificationCarousel from './Components/NotificationCarousel';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      {/* <Banner/> */}
+      <Banner/>
+      {/* <NotificationCarousel/> */}
       {/* <FlagSection/> */}
       <BrowserRouter>
       <Routes>
@@ -41,11 +44,11 @@ function App() {
         <Route path='/copyright-policy' element={<CopyrightPolicy/>} />
         <Route path='/citation-reports' element={<CitationReports/>} />
         <Route path='/cfp' element={<Cfp/>} />
-        <Route path='/autherprofile' element={<AuthorProfile/>} />
+        <Route path='/authersprofile' element={<AuthorProfile/>} />
         <Route path='/article' element={<Article/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/registration' element={<Registration/>} />
-        <Route path='/PublishingStandards' element={<PublishingStandards/>} />
+        <Route path='/Publishing-Standards' element={<PublishingStandards/>} />
         <Route path='/contact-us' element={<Contact/>} />
       </Routes>
       </BrowserRouter>

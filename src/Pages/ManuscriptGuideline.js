@@ -3,13 +3,13 @@ import { Typography, Button, Grid, Divider, Box } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import SideBar from '../Components/SideBar';
-import Banner from '../Components/Banner';
+// import Banner from '../Components/Banner';
 
 const ManuscriptPreparation = () => {
   return (
 
 <>
-<Banner title="Manuscript-Preparation" />
+{/* <Banner title="Manuscript-Preparation" /> */}
     <Grid container justifyContent={"center"} marginX={"auto"}   sx={{overflow:"auto", gap:"10px"}} marginTop={"10px"}  height="100vh">
     {/* Left Side List */}
     <Grid item xs={12} sm={2} marginBottom={"auto"}  bgcolor="#00C1A1" color={'white'} borderRadius={"10px"} p={2}>

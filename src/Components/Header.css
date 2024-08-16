@@ -1,0 +1,78 @@
+/* Default styles for the navbar */
+.navbar-custom {
+    background-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+  }
+  
+  .navbar-scroll {
+    background-color: black;
+  }
+  
+  /* White text color for all screen sizes */
+  .navbar-custom .navbar-nav .nav-link,
+  .navbar-custom .navbar-brand {
+    color: white;
+  }
+  
+  /* Mobile-specific styles (screen width <= 991px) */
+  @media (max-width: 991px) {
+    .navbar-custom {
+      background-color: black;
+    }
+    
+    /* Ensure links remain white on mobile */
+    .navbar-custom .navbar-nav .nav-link,
+    .navbar-custom .navbar-brand {
+      color: white;
+    }
+  
+    .navbar-custom .navbar-toggler {
+      border-color: white;
+    }
+  
+    .navbar-custom .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+  }
+  
+  /* Hover effect */
+  .navbar-custom .nav-link:hover {
+    color: #ccc;
+  }
+  
+
+
+  
+
+
+
+  /* new css added */
+
+  /* Navbar Dropdown Styles */
+.navbar-custom .dropdown-menu {
+    background-color: black;
+    border: none;
+  }
+  
+  /* Dropdown items style */
+  .navbar-custom .dropdown-menu .dropdown-item {
+    color: white;
+  }
+  
+  .navbar-custom .dropdown-menu .dropdown-item:hover {
+    background-color: #444; /* Slightly lighter shade on hover */
+  }
+  
+  /* Prevent the dropdown title from changing color when clicked */
+  .navbar-custom .nav-link,
+  .navbar-custom .nav-link:focus,
+  .navbar-custom .nav-link:hover,
+  .navbar-custom .dropdown-toggle {
+    color: white !important;
+  }
+  
+  /* Keep dropdown title color white even on click */
+  .navbar-custom .dropdown-toggle::after {
+    color: white;
+  }
+  

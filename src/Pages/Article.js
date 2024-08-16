@@ -3,6 +3,61 @@ import { Grid, Typography, Link, Box, InputBase, IconButton } from '@mui/materia
 import SearchIcon from '@mui/icons-material/Search';
 import SideBar from '../Components/SideBar';
 
+
+
+
+const articles = [
+  {
+    id: 1,
+    title: "Suitable Innovation in Industry 5.0: The Moderating Mechanism of Innovation Transmission Types in Innovation Ecosystem",
+    link: "/document/10444026/",
+    authors: [
+      { name: "Jiahui Li", link: "/author/37089987015" },
+      { name: "Baiqing Sun", link: "/authorsprofile" },
+      { name: "Bo Yu", link: "/author/37308401400" }
+    ],
+    journal: { name: "JIT Transactions on Engineering Management", link: "" },
+    year: "2024",
+    volume: "71",
+    type: "Journal Article",
+    publisher: "JIT",
+    citedBy: { text: "Papers (1)", link: "" }
+  },
+  {
+    id: 2,
+    title: "Suitable Innovation in Industry 5.0: The Moderating Mechanism of Innovation Transmission Types in Innovation Ecosystem",
+    link: "/document/10444026/",
+    authors: [
+      { name: "Jiahui Li", link: "/author/37089987015" },
+      { name: "Baiqing Sun", link: "/authorsprofile" },
+      { name: "Bo Yu", link: "/author/37308401400" }
+    ],
+    journal: { name: "JIT Transactions on Engineering Management", link: "" },
+    year: "2024",
+    volume: "71",
+    type: "Journal Article",
+    publisher: "JIT",
+    citedBy: { text: "Papers (1)", link: "" }
+  },
+  {
+    id: 3,
+    title: "Suitable Innovation in Industry 5.0: The Moderating Mechanism of Innovation Transmission Types in Innovation Ecosystem",
+    link: "/document/10444026/",
+    authors: [
+      { name: "Jiahui Li", link: "/author/37089987015" },
+      { name: "Baiqing Sun", link: "/authersprofile" },
+      { name: "Bo Yu", link: "/author/37308401400" }
+    ],
+    journal: { name: "JIT Transactions on Engineering Management", link: "" },
+    year: "2024",
+    volume: "71",
+    type: "Journal Article",
+    publisher: "JIT",
+    citedBy: { text: "Papers (1)", link: "" }
+  },
+  // Add more articles here as objects in the array
+];
+
 const Article = () => {
   return (
     <>
@@ -14,6 +69,8 @@ const Article = () => {
 
         {/* Right Side Content */}
         <Grid item xs={12} sm={8} overflow={"hidden"} flexGrow={1} p={2} borderRadius={"10px"} bgcolor="#f5f5f5" marginX={"auto"}>
+
+          {/* search bar */}
           <Box sx={{ position: "sticky", top: 0, zIndex: 1000, backgroundColor: "#f5f5f5", padding: "8px 0" }}>
             <Box
               sx={{
@@ -39,7 +96,9 @@ const Article = () => {
             </Box>
           </Box>
 
-          <Box>
+          {/* list of journals */}
+
+          {/* <Box>
             <Grid container spacing={2} className="result-item-align" sx={{ padding: '16px' }}>
               <Grid item xs={12}>
                 <Typography variant="h6" component="div" fontWeight="bold">
@@ -79,7 +138,61 @@ const Article = () => {
                 </Typography>
               </Grid>
             </Grid>
+          </Box> */}
+
+          <Box>
+      {articles.map((article, index) => (
+        <Box key={index} sx={{ borderBottom: "2px solid #ddd",}}>
+          <Grid container spacing={2} className="result-item-align" sx={{ padding: '16px' }}>
+            <Grid item xs={12}>
+              <Typography variant="h6" component="div" fontWeight="bold">
+                <Link href={article.link} underline="none">
+                  {article.title}
+                </Link>
+              </Typography>
+            </Grid>
+
+            <Grid item xs={12}>
+              <Typography variant="body1">
+                Authors:-
+                {article.authors.map((author, idx) => (
+                  <React.Fragment key={idx}>
+                    <Link href={author.link} underline="hover"> {author.name}</Link>
+                    {idx < article.authors.length - 1 && ';'}
+                  </React.Fragment>
+                ))}
+              </Typography>
+            </Grid>
+
+            <Grid item xs={12}>
+              <Link href={article.journal.link} underline="hover">{article.journal.name}</Link>
+            </Grid>
+
+            <Grid item xs={12}>
+              <Typography variant="body2" component="div">
+                Year: {article.year}
+                <Box component="span" sx={{ mx: 1 }}>|</Box>
+                <Link href={article.journal.link} underline="hover">Volume: {article.volume}</Link>
+                <Box component="span" sx={{ mx: 1 }}>|</Box>
+                {article.type}
+                <Box component="span" sx={{ mx: 1 }}>|</Box>
+                Publisher: {article.publisher}
+              </Typography>
+            </Grid>
+
+            <Grid item xs={12}>
+              <Typography variant="body2">
+                Cited by: <Link href={article.citedBy.link} underline="hover">{article.citedBy.text}</Link>
+              </Typography>
+            </Grid>
+          </Grid>
+        </Box>
+      ))}
           </Box>
+
+
+
+          
         </Grid>
       </Grid>
     </>

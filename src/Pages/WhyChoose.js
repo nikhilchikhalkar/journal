@@ -2,14 +2,14 @@ import React from 'react'
 import {  Box, Grid,  Typography } from '@mui/material';
 import {  CardContent, Link } from '@mui/material';
 import SideBar from '../Components/SideBar';
-import Banner from '../Components/Banner';
+// import Banner from '../Components/Banner';
 
 
 
 function WhyChoose() {
   return (
     <>
-    <Banner title="Why-Choose" />
+    {/* <Banner title="Why-Choose" /> */}
     <Grid container justifyContent={"center"} marginX={"auto"}   sx={{overflow:"auto", gap:"10px"}} marginTop={"10px"}  height="100vh">
       {/* Left Side List */}
       <Grid item xs={12} sm={2} marginBottom={"auto"}  bgcolor="#00C1A1" color={'white'} borderRadius={"10px"} p={2}>

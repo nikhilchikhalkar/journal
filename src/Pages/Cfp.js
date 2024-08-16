@@ -11,13 +11,13 @@ import {
 } from "@mui/material";
 import { red, orange, green, lightBlue } from "@mui/material/colors";
 import SideBar from "../Components/SideBar";
-import Banner from "../Components/Banner";
+// import Banner from "../Components/Banner";
 import PublicationProcess from "../Components/PublicationProcess";
 
 const Cfp = () => {
   return (
     <>
-      <Banner title="Call-For-Paper" />
+      {/* <Banner title="Call-For-Paper" /> */}
       <Grid
         container
         justifyContent={"center"}

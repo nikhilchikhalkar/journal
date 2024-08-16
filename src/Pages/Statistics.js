@@ -1,13 +1,13 @@
 import React from 'react'
 import {  AccordionDetails, Typography, Box, Link, Grid } from '@mui/material';
 import SideBar from '../Components/SideBar';
-import Banner from '../Components/Banner';
+// import Banner from '../Components/Banner';
 
 
 const Statistics = () => {
   return (
     <>
-<Banner title="Statistics"/>
+{/* <Banner title="Statistics"/> */}
 
 <Grid container justifyContent={"center"} marginX={"auto"}   sx={{overflow:"auto", gap:"10px"}} marginTop={"10px"}  height="100vh">
       {/* Left Side List */}
